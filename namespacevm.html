@@ -227,6 +227,12 @@ Variables</h2></td></tr>
 <tr class="separator:a0aad83677329be55b99587949e352fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca57bcc699e80df36e1634cf59e28d07"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classvm_1_1item.html">item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#aca57bcc699e80df36e1634cf59e28d07">Default</a></td></tr>
 <tr class="separator:aca57bcc699e80df36e1634cf59e28d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a193db95f7370c6aca9dc48b4ef317"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#ad8a193db95f7370c6aca9dc48b4ef317">opnames</a> []</td></tr>
+<tr class="separator:ad8a193db95f7370c6aca9dc48b4ef317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fb3e379a9c9ef24562581e62a4569d"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="common_8h.html#a5286e88faefac4325b8e92ec0d91bb81">Int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#ad9fb3e379a9c9ef24562581e62a4569d">numOps</a> = (<a class="el" href="common_8h.html#a5286e88faefac4325b8e92ec0d91bb81">Int</a>)(sizeof(<a class="el" href="namespacevm.html#ad8a193db95f7370c6aca9dc48b4ef317">opnames</a>)/sizeof(char *))</td></tr>
+<tr class="separator:ad9fb3e379a9c9ef24562581e62a4569d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0d11d7c4fc9bf1985a2952f1292fc4"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#a8f0d11d7c4fc9bf1985a2952f1292fc4">optypes</a> []</td></tr>
+<tr class="separator:a8f0d11d7c4fc9bf1985a2952f1292fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aa1201a7a37b858969230fcec6f0c34"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#a4aa1201a7a37b858969230fcec6f0c34">dereferenceNullPointer</a> =&quot;dereference of null pointer&quot;</td></tr>
 <tr class="separator:a4aa1201a7a37b858969230fcec6f0c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2124ba6e7681d809dc9b376f9cf2736a"><td class="memItemLeft" align="right" valign="top">mem::list&lt; <a class="el" href="structvm_1_1bpinfo.html">bpinfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevm.html#a2124ba6e7681d809dc9b376f9cf2736a">bplist</a></td></tr>
@@ -1673,6 +1679,86 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asyprocess_8cc_source.html#l00045">45</a> of file <a class="el" href="asyprocess_8cc_source.html">asyprocess.cc</a>.</p>
+
+</div>
+</div>
+<a id="ad9fb3e379a9c9ef24562581e62a4569d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb3e379a9c9ef24562581e62a4569d">&#9670;&nbsp;</a></span>numOps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="common_8h.html#a5286e88faefac4325b8e92ec0d91bb81">Int</a> vm::numOps = (<a class="el" href="common_8h.html#a5286e88faefac4325b8e92ec0d91bb81">Int</a>)(sizeof(<a class="el" href="namespacevm.html#ad8a193db95f7370c6aca9dc48b4ef317">opnames</a>)/sizeof(char *))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="program_8cc_source.html#l00021">21</a> of file <a class="el" href="program_8cc_source.html">program.cc</a>.</p>
+
+</div>
+</div>
+<a id="ad8a193db95f7370c6aca9dc48b4ef317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a193db95f7370c6aca9dc48b4ef317">&#9670;&nbsp;</a></span>opnames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* vm::opnames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line"><span class="preprocessor">#define OPCODE(name, type) </span></div>
+<div class="line"> </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="program_8cc_source.html#l00016">16</a> of file <a class="el" href="program_8cc_source.html">program.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8f0d11d7c4fc9bf1985a2952f1292fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f0d11d7c4fc9bf1985a2952f1292fc4">&#9670;&nbsp;</a></span>optypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char vm::optypes[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line"><span class="preprocessor">#define OPCODE(name, type) </span></div>
+<div class="line"> </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="program_8cc_source.html#l00023">23</a> of file <a class="el" href="program_8cc_source.html">program.cc</a>.</p>
 
 </div>
 </div>

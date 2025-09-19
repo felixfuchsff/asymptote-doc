@@ -110,7 +110,7 @@ $(function() {
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/* bltinAccess */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> bltinError(<a class="code" href="classposition.html">position</a> <a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>)</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacetrans.html#a2d32a54a3650deea5be666abd9c7eb10">   33</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespacetrans.html#a2d32a54a3650deea5be666abd9c7eb10">bltinError</a>(<a class="code" href="classposition.html">position</a> <a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <a class="code" href="errormsg_8cc.html#a7a915fcce0a5ee863a3e47ac8c905d30">em</a>.<a class="code" href="classerrorstream.html#a2ff3a125685576f0b9554bd50c42548e">error</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="errormsg_8cc.html#a7a915fcce0a5ee863a3e47ac8c905d30">em</a> &lt;&lt; <span class="stringliteral">&quot;built-in functions cannot be modified&quot;</span>;</div>
@@ -123,7 +123,7 @@ $(function() {
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>.encode(inst::constpush,(<a class="code" href="classvm_1_1item.html">item</a>)(<a class="code" href="structvm_1_1callable.html">vm::callable</a>*)<span class="keyword">new</span> <a class="code" href="classvm_1_1bfunc.html">vm::bfunc</a>(f));</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a96589370dfd74ce4de39dd861c201bdf">WRITE</a>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      bltinError(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      <a class="code" href="namespacetrans.html#a2d32a54a3650deea5be666abd9c7eb10">bltinError</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a7837f517d937609a5d2638ccf57e0aad">CALL</a>:</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>.encode(inst::builtin, f);</div>
@@ -145,7 +145,7 @@ $(function() {
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>.encode(inst::constpush, (<a class="code" href="classvm_1_1item.html">item</a>)f);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a96589370dfd74ce4de39dd861c201bdf">WRITE</a>:</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      bltinError(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <a class="code" href="namespacetrans.html#a2d32a54a3650deea5be666abd9c7eb10">bltinError</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a7837f517d937609a5d2638ccf57e0aad">CALL</a>:</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      this-&gt;<a class="code" href="classtrans_1_1callableAccess.html#ad73458bba0778dda9275edc5d51884ba">encode</a>(<a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84aa883e65e97f080f3bf0e55928c19533c">READ</a>, pos, <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>);</div>
@@ -187,7 +187,7 @@ $(function() {
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">/* localAccess */</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> frameError(<a class="code" href="classposition.html">position</a> <a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="namespacetrans.html#aac767afe9a92613d0cb02f35b0943efa">  110</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespacetrans.html#aac767afe9a92613d0cb02f35b0943efa">frameError</a>(<a class="code" href="classposition.html">position</a> <a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>) {</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="comment">// A local variable is being used when its frame is not active.</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <a class="code" href="errormsg_8cc.html#a7a915fcce0a5ee863a3e47ac8c905d30">em</a>.<a class="code" href="classerrorstream.html#a2ff3a125685576f0b9554bd50c42548e">error</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <a class="code" href="errormsg_8cc.html#a7a915fcce0a5ee863a3e47ac8c905d30">em</a> &lt;&lt; <span class="stringliteral">&quot;static use of dynamic variable&quot;</span>;</div>
@@ -206,7 +206,7 @@ $(function() {
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;             offset);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    frameError(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="namespacetrans.html#aac767afe9a92613d0cb02f35b0943efa">frameError</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordflow">if</span> (act == <a class="code" href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a7837f517d937609a5d2638ccf57e0aad">CALL</a>)</div>
@@ -222,7 +222,7 @@ $(function() {
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>.encode(inst::popcall);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  }</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    frameError(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="namespacetrans.html#aac767afe9a92613d0cb02f35b0943efa">frameError</a>(<a class="code" href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a>);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
@@ -265,6 +265,8 @@ $(function() {
 <div class="ttc" id="ageometry_8asy_html_aa7453a2639087da385aa95fdcdd725f4"><div class="ttname"><a href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a></div><div class="ttdeci">real e</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l02516">geometry.asy:2516</a></div></div>
 <div class="ttc" id="agrid3_8asy_html_a189d97334754619d1ab24f7d8168bd10"><div class="ttname"><a href="grid3_8asy.html#a189d97334754619d1ab24f7d8168bd10">top</a></div><div class="ttdeci">position top</div><div class="ttdef"><b>Definition:</b> <a href="grid3_8asy_source.html#l00233">grid3.asy:233</a></div></div>
 <div class="ttc" id="anamespacetrans_html"><div class="ttname"><a href="namespacetrans.html">trans</a></div><div class="ttdef"><b>Definition:</b> <a href="absyn_8h_source.html#l00017">absyn.h:17</a></div></div>
+<div class="ttc" id="anamespacetrans_html_a2d32a54a3650deea5be666abd9c7eb10"><div class="ttname"><a href="namespacetrans.html#a2d32a54a3650deea5be666abd9c7eb10">trans::bltinError</a></div><div class="ttdeci">static void bltinError(position pos)</div><div class="ttdef"><b>Definition:</b> <a href="access_8cc_source.html#l00033">access.cc:33</a></div></div>
+<div class="ttc" id="anamespacetrans_html_aac767afe9a92613d0cb02f35b0943efa"><div class="ttname"><a href="namespacetrans.html#aac767afe9a92613d0cb02f35b0943efa">trans::frameError</a></div><div class="ttdeci">static void frameError(position pos)</div><div class="ttdef"><b>Definition:</b> <a href="access_8cc_source.html#l00110">access.cc:110</a></div></div>
 <div class="ttc" id="anamespacetrans_html_ab7374444ba730aa85e084f8ff950cd84"><div class="ttname"><a href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84">trans::action</a></div><div class="ttdeci">action</div><div class="ttdef"><b>Definition:</b> <a href="access_8h_source.html#l00028">access.h:28</a></div></div>
 <div class="ttc" id="anamespacetrans_html_ab7374444ba730aa85e084f8ff950cd84a7837f517d937609a5d2638ccf57e0aad"><div class="ttname"><a href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a7837f517d937609a5d2638ccf57e0aad">trans::CALL</a></div><div class="ttdeci">@ CALL</div><div class="ttdef"><b>Definition:</b> <a href="access_8h_source.html#l00032">access.h:31</a></div></div>
 <div class="ttc" id="anamespacetrans_html_ab7374444ba730aa85e084f8ff950cd84a96589370dfd74ce4de39dd861c201bdf"><div class="ttname"><a href="namespacetrans.html#ab7374444ba730aa85e084f8ff950cd84a96589370dfd74ce4de39dd861c201bdf">trans::WRITE</a></div><div class="ttdeci">@ WRITE</div><div class="ttdef"><b>Definition:</b> <a href="access_8h_source.html#l00030">access.h:30</a></div></div>

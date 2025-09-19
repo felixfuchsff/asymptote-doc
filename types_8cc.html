@@ -346,18 +346,18 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code" href="namespacesym.html">sym</a> &amp;&amp;                                                      \</div>
 <div class="line">      <a class="code" href="namespacetypes.html#add25bc4367000a75a866c4e7e3535d24">equivalent</a>(sig, <a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a>##Type()-&gt;getSignature()))                    \</div>
 <div class="line">    {                                                                   \</div>
-<div class="line">      static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>(run::func, 0, run::func##Helper); \</div>
+<div class="line">      static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>(run::func, 0, run::func##Helper); \</div>
 <div class="line">      <span class="comment">/* for some fields, v needs to be dynamic */</span>                      \</div>
 <div class="line">      <span class="comment">/* e.g. when the function type depends on an array type. */</span>       \</div>
 <div class="line">      trans::varEntry *<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a> =                                              \</div>
-<div class="line">        new <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a>(<a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a>##Type(), &amp;a, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);           \</div>
+<div class="line">        new <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a>(<a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a>##Type(), &amp;<a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);           \</div>
 <div class="line">      return <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>;                                                         \</div>
 <div class="line">    }</div>
 <div class="ttc" id="aclasstrans_1_1varEntry_html"><div class="ttname"><a href="classtrans_1_1varEntry.html">trans::varEntry</a></div><div class="ttdef"><b>Definition:</b> <a href="entry_8h_source.html#l00093">entry.h:93</a></div></div>
 <div class="ttc" id="aclasstrans_1_1virtualFieldAccess_html"><div class="ttname"><a href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a></div><div class="ttdef"><b>Definition:</b> <a href="virtualfieldaccess_8h_source.html#l00033">virtualfieldaccess.h:33</a></div></div>
 <div class="ttc" id="acontour3_8asy_html_acb566003a29ebe66daede177a8165d13"><div class="ttname"><a href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a></div><div class="ttdeci">private struct weighted v</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l01509">geometry.asy:1509</a></div></div>
-<div class="ttc" id="acontour_8asy_html_ac07dc21abb590334fae0755b62c213d5"><div class="ttname"><a href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a></div><div class="ttdeci">pair a</div><div class="ttdef"><b>Definition:</b> <a href="contour_8asy_source.html#l00033">contour.asy:33</a></div></div>
 <div class="ttc" id="aerrormsg_8cc_html_a5760945e2649ac0474a541f7f2303bea"><div class="ttname"><a href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a></div><div class="ttdeci">position nullPos</div><div class="ttdef"><b>Definition:</b> <a href="errormsg_8cc_source.html#l00018">errormsg.cc:18</a></div></div>
+<div class="ttc" id="anamespacecamp_html_aa7faa0fabd82a852b6ba6ef05dcbc3ce"><div class="ttname"><a href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">camp::a</a></div><div class="ttdeci">static pair a</div><div class="ttdef"><b>Definition:</b> <a href="path_8cc_source.html#l00582">path.cc:582</a></div></div>
 <div class="ttc" id="anamespacetypes_html_add25bc4367000a75a866c4e7e3535d24"><div class="ttname"><a href="namespacetypes.html#add25bc4367000a75a866c4e7e3535d24">types::equivalent</a></div><div class="ttdeci">bool equivalent(const ty *t1, const ty *t2, bool special)</div><div class="ttdef"><b>Definition:</b> <a href="types_8cc_source.html#l00575">types.cc:575</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="types_8cc_source.html#l00099">99</a> of file <a class="el" href="types_8cc_source.html">types.cc</a>.</p>
@@ -396,8 +396,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (sig == 0 &amp;&amp; <span class="keywordtype">id</span> == <a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a>) {                                 \</div>
-<div class="line">    static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>(run::func);              \</div>
-<div class="line">    static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;a, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);        \</div>
+<div class="line">    static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>(run::func);              \</div>
+<div class="line">    static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;<a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);        \</div>
 <div class="line">    return &amp;<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>;                                                  \</div>
 <div class="line">  }</div>
 </div><!-- fragment -->
@@ -580,8 +580,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  {                                             \</div>
-<div class="line">    static <a class="code" href="classtrans_1_1bltinAccess.html">trans::bltinAccess</a> <a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>(run::func);     \</div>
-<div class="line">    return &amp;<a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>;                                  \</div>
+<div class="line">    static <a class="code" href="classtrans_1_1bltinAccess.html">trans::bltinAccess</a> <a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>(run::func);     \</div>
+<div class="line">    return &amp;<a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>;                                  \</div>
 <div class="line">  }</div>
 <div class="ttc" id="aclasstrans_1_1bltinAccess_html"><div class="ttname"><a href="classtrans_1_1bltinAccess.html">trans::bltinAccess</a></div><div class="ttdef"><b>Definition:</b> <a href="access_8h_source.html#l00068">access.h:68</a></div></div>
 </div><!-- fragment -->
@@ -627,8 +627,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (sig == 0 &amp;&amp; <span class="keywordtype">id</span> == <a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a>) {                                         \</div>
-<div class="line">    static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>(run::getter, run::setter);       \</div>
-<div class="line">    static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;a, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);                \</div>
+<div class="line">    static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>(run::getter, run::setter);       \</div>
+<div class="line">    static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;<a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);                \</div>
 <div class="line">    return &amp;<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>;                                                          \</div>
 <div class="line">  }</div>
 </div><!-- fragment -->
@@ -670,8 +670,8 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code" href="animation_8asy.html#af7b7714ba5ec0fbfe427850d016760b4">name</a> &amp;&amp;                                                     \</div>
 <div class="line">      <a class="code" href="namespacetypes.html#add25bc4367000a75a866c4e7e3535d24">equivalent</a>(sig, Type()-&gt;getSignature()))                          \</div>
 <div class="line">    {                                                                   \</div>
-<div class="line">      static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="contour_8asy.html#ac07dc21abb590334fae0755b62c213d5">a</a>(run::func, 0, run::func##Helper); \</div>
-<div class="line">      static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;a, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);              \</div>
+<div class="line">      static <a class="code" href="classtrans_1_1virtualFieldAccess.html">trans::virtualFieldAccess</a> <a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>(run::func, 0, run::func##Helper); \</div>
+<div class="line">      static <a class="code" href="classtrans_1_1varEntry.html">trans::varEntry</a> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>(Type(), &amp;<a class="code" href="namespacecamp.html#aa7faa0fabd82a852b6ba6ef05dcbc3ce">a</a>, 0, <a class="code" href="errormsg_8cc.html#a5760945e2649ac0474a541f7f2303bea">nullPos</a>);              \</div>
 <div class="line">      return &amp;<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>;                                                        \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->

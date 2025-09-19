@@ -109,11 +109,11 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="classfftwpp_1_1Threadtable.html#a481d01806c874619419a442385df0965">Mrcfft1d::Table</a> Mrcfft1d::threadtable;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="classfftwpp_1_1Threadtable.html#a481d01806c874619419a442385df0965">Mcrfft1d::Table</a> Mcrfft1d::threadtable;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">static</span> <span class="keywordtype">bool</span> Wise=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">   32</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">Wise</a>=<span class="keyword">false</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespacefftwpp.html#af73e37745949c4ff055089d01e363729">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefftwpp.html#af73e37745949c4ff055089d01e363729">loadWisdom</a>()</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span>(!Wise) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">Wise</a>) {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="namespacefftwpp.html#ae499adee41f080a2afdfd8b9fde0557c">wisdomTemp</a> &lt;&lt; <a class="code" href="namespacefftwpp.html#ab469740a36a15032d6574f3152a8db96">wisdomName</a> &lt;&lt; <span class="stringliteral">&quot;_&quot;</span> &lt;&lt; getpid();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    ifstream ifWisdom;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    ifWisdom.open(<a class="code" href="namespacefftwpp.html#ab469740a36a15032d6574f3152a8db96">wisdomName</a>);</div>
@@ -122,7 +122,7 @@ $(function() {
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    ifWisdom.close();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; <a class="code" href="namespacecamp.html#a4e8afb80fe901fc3ad3196628b983093">s</a>=wisdom.str();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    fftw_import_wisdom_from_string(<a class="code" href="namespacecamp.html#a4e8afb80fe901fc3ad3196628b983093">s</a>.c_str());</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    Wise=<span class="keyword">true</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">Wise</a>=<span class="keyword">true</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
@@ -138,7 +138,7 @@ $(function() {
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordflow">if</span>(fftw::wiser) {</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    fftw_forget_wisdom();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    Wise=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">Wise</a>=<span class="keyword">false</span>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="namespacefftwpp.html#af73e37745949c4ff055089d01e363729">loadWisdom</a>();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="namespacefftwpp.html#a805cd0785d45ca5df820c620cf78b278">recall</a>();</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">char</span> *wisdom=fftw_export_wisdom_to_string();</div>
@@ -198,6 +198,7 @@ $(function() {
 <div class="ttc" id="anamespacefftwpp_html_ac188158967193d921f0c7a938cfab508"><div class="ttname"><a href="namespacefftwpp.html#ac188158967193d921f0c7a938cfab508">fftwpp::saveWisdom</a></div><div class="ttdeci">void saveWisdom()</div><div class="ttdef"><b>Definition:</b> <a href="fftw_09_09_8cc_source.html#l00057">fftw++.cc:57</a></div></div>
 <div class="ttc" id="anamespacefftwpp_html_ae499adee41f080a2afdfd8b9fde0557c"><div class="ttname"><a href="namespacefftwpp.html#ae499adee41f080a2afdfd8b9fde0557c">fftwpp::wisdomTemp</a></div><div class="ttdeci">ostringstream wisdomTemp</div><div class="ttdef"><b>Definition:</b> <a href="fftw_09_09_8cc_source.html#l00017">fftw++.cc:17</a></div></div>
 <div class="ttc" id="anamespacefftwpp_html_af73e37745949c4ff055089d01e363729"><div class="ttname"><a href="namespacefftwpp.html#af73e37745949c4ff055089d01e363729">fftwpp::loadWisdom</a></div><div class="ttdeci">void loadWisdom()</div><div class="ttdef"><b>Definition:</b> <a href="fftw_09_09_8cc_source.html#l00034">fftw++.cc:34</a></div></div>
+<div class="ttc" id="anamespacefftwpp_html_af8490fe6ccfcae1cb06b9e1d10e0a9c3"><div class="ttname"><a href="namespacefftwpp.html#af8490fe6ccfcae1cb06b9e1d10e0a9c3">fftwpp::Wise</a></div><div class="ttdeci">static bool Wise</div><div class="ttdef"><b>Definition:</b> <a href="fftw_09_09_8cc_source.html#l00032">fftw++.cc:32</a></div></div>
 <div class="ttc" id="anamespacemem_html_a1188c44eefd355da33f98ab914c42da4"><div class="ttname"><a href="namespacemem.html#a1188c44eefd355da33f98ab914c42da4">mem::ostringstream</a></div><div class="ttdeci">std::ostringstream ostringstream</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00150">memory.h:150</a></div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> <a href="symbolmaps_8h_source.html#l00069">symbolmaps.h:70</a></div></div>
 <div class="ttc" id="anamespaceutils_html"><div class="ttname"><a href="namespaceutils.html">utils</a></div><div class="ttdef"><b>Definition:</b> <a href="align_8h_source.html#l00090">align.h:90</a></div></div>

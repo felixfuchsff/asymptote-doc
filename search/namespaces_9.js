@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opsymbols_6417',['opsymbols',['../namespaceopsymbols.html',1,'']]]
+  ['opsymbols_6483',['opsymbols',['../namespaceopsymbols.html',1,'']]]
 ];

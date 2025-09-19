@@ -163,12 +163,12 @@ Friends</h2></td></tr>
 </div><!-- fragment --><p>The representation of this transformation as a matrix is: </p><p class="formulaDsp">
 \[ t = \begin{pmatrix} \mathtt{t.xx} &amp; \mathtt{t.xy} &amp; \mathtt{t.x} \\ \mathtt{t.yx} &amp; \mathtt{t.yy} &amp; \mathtt{t.y} \end{pmatrix} \]
 </p>
-<p> A transformation is make by doing matrix multiplication: Given a pair p = (x, y), the transfomed pair is the result of <code>t*p</code>. That is:</p>
+<p> A transformation is make by doing matrix multiplication: Given a pair \( p = (\mathtt{x}, \mathtt{y}) \), the transfomed pair is the result of \( t\cdot p \). That is:</p>
 <p class="formulaDsp">
-\[ \begin{pmatrix} \mathtt{x&#39;}\\ \mathtt{y&#39;} \end{pmatrix} = t\cdot p \]
+\[ \begin{pmatrix} \mathtt{x&#39;}\\ \mathtt{y&#39;} \end{pmatrix} = t\cdot p = \begin{pmatrix} \mathtt{t.x} + \mathtt{t.xx} \cdot x + \mathtt{t.xy} \cdot \mathtt{y} \\ \mathtt{t.y} + \mathtt{t.yx} \cdot x + \mathtt{t.yy} \cdot \mathtt{y} \\ \end{pmatrix} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00051">51</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00055">55</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab68e2ee4d11630194ca855925742fd51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab68e2ee4d11630194ca855925742fd51">&#9670;&nbsp;</a></span>transform() <span class="overload">[1/2]</span></h2>
@@ -193,7 +193,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00060">60</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00064">64</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00063">63</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00067">67</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00065">65</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00069">69</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +310,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00070">70</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00074">74</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00072">72</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00076">76</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +364,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00073">73</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00077">77</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +391,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00071">71</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00075">75</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -418,7 +418,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00074">74</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00078">78</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -445,7 +445,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00075">75</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00079">79</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +472,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00153">153</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00157">157</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -499,7 +499,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00129">129</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00133">133</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00135">135</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00139">139</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00140">140</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00144">144</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +582,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00147">147</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00151">151</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +610,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00158">158</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00162">162</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00124">124</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00128">128</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -686,7 +686,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00098">98</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00102">102</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00107">107</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00111">111</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -762,7 +762,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00077">77</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00081">81</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00091">91</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00095">95</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00084">84</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00088">88</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00170">170</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00174">174</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
@@ -904,7 +904,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00117">117</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transform_8h_source.html#l00121">121</a> of file <a class="el" href="transform_8h_source.html">transform.h</a>.</p>
 
 </div>
 </div>
