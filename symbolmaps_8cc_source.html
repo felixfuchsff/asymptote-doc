@@ -178,9 +178,9 @@ $(function() {
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="namespaceAsymptoteLsp.html#a680c8dca85e47dbe2fb0fb75d06a69b0">posLt</a>(inputPos, subContext-&gt;contextLoc))</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keyword">auto</span> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>=subContext-&gt;searchSymbol(inputPos);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">auto</span> subCtxSym=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">auto</span> ctx=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keyword">auto</span> <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>=subContext-&gt;searchSymbol(inputPos);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">auto</span> subCtxSym=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">auto</span> ctx=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">if</span> (subCtxSym.has_value())</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        {</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;          <span class="keywordflow">return</span> make_pair(subCtxSym, ctx);</div>
@@ -574,9 +574,9 @@ $(function() {
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    {</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      std::list&lt;posRangeInFile&gt; fnDecls;</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      <span class="keyword">auto</span> <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>=searchLitContext(<a class="code" href="syzygy_8asy.html#a1ad9b3ddf467210bb65687969f2e9328">symbol</a>);</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      <span class="keyword">auto</span> ctx=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keyword">auto</span> isStruct=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      <span class="keyword">auto</span> <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>=searchLitContext(<a class="code" href="syzygy_8asy.html#a1ad9b3ddf467210bb65687969f2e9328">symbol</a>);</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      <span class="keyword">auto</span> ctx=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keyword">auto</span> isStruct=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      <span class="keywordflow">if</span> (ctx) <span class="comment">// ctx is a struct declaration. should not search beyond this struct.</span></div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;      {</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <span class="keywordflow">if</span> (isStruct)</div>
@@ -885,9 +885,9 @@ $(function() {
 <div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160; </div>
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;    <span class="keywordflow">if</span> (restArgs.has_value())</div>
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    {</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>=restArgs.value();</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; argtype=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; argname=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>=restArgs.value();</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; argtype=std::get&lt;0&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; argname=std::get&lt;1&gt;(<a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
 <div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;      ss &lt;&lt; <span class="stringliteral">&quot;... &quot;</span> &lt;&lt; argtype;</div>
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160; </div>
 <div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;      <span class="keywordflow">if</span> (argname.has_value())</div>
@@ -906,7 +906,7 @@ $(function() {
 <div class="ttc" id="absp_8asy_html_a2f15406fd45878156d803ada29c33529"><div class="ttname"><a href="bsp_8asy.html#a2f15406fd45878156d803ada29c33529">fit</a></div><div class="ttdeci">frame fit</div><div class="ttdef"><b>Definition:</b> <a href="bsp_8asy_source.html#l00037">bsp.asy:37</a></div></div>
 <div class="ttc" id="aclassposition_html"><div class="ttname"><a href="classposition.html">position</a></div><div class="ttdef"><b>Definition:</b> <a href="errormsg_8h_source.html#l00070">errormsg.h:70</a></div></div>
 <div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
-<div class="ttc" id="acontour3_8asy_html_acb566003a29ebe66daede177a8165d13"><div class="ttname"><a href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a></div><div class="ttdeci">private struct weighted v</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l01509">geometry.asy:1509</a></div></div>
+<div class="ttc" id="acontour3_8asy_html_aa8268e00224bb04083e40d42224bca19"><div class="ttname"><a href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a></div><div class="ttdeci">private struct weighted v</div></div>
 <div class="ttc" id="adrawtree_8asy_html_a696ad6028ea970b11ed9f8c879891948"><div class="ttname"><a href="drawtree_8asy.html#a696ad6028ea970b11ed9f8c879891948">pos</a></div><div class="ttdeci">pair pos</div><div class="ttdef"><b>Definition:</b> <a href="drawtree_8asy_source.html#l00024">drawtree.asy:24</a></div></div>
 <div class="ttc" id="aerrormsg_8cc_html_a3c17ddaf0595ec1ab1621dbf42b79978"><div class="ttname"><a href="errormsg_8cc.html#a3c17ddaf0595ec1ab1621dbf42b79978">operator&lt;&lt;</a></div><div class="ttdeci">ostream &amp; operator&lt;&lt;(ostream &amp;out, const position &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="errormsg_8cc_source.html#l00025">errormsg.cc:25</a></div></div>
 <div class="ttc" id="aerrormsg_8h_html_a1e2f4f684d9708a08620a8ca46a9a8e6"><div class="ttname"><a href="errormsg_8h.html#a1e2f4f684d9708a08620a8ca46a9a8e6">operator==</a></div><div class="ttdeci">bool operator==(const fileinfo &amp;a, const fileinfo &amp;b)</div><div class="ttdef"><b>Definition:</b> <a href="errormsg_8h_source.html#l00065">errormsg.h:65</a></div></div>

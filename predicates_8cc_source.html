@@ -743,8 +743,8 @@ $(function() {
 <div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;<span class="comment">/*                                                                           */</span></div>
 <div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160; </div>
-<div class="line"><a name="l00666"></a><span class="lineno"><a class="line" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">  666</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>,</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                       <span class="keywordtype">int</span> flen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
+<div class="line"><a name="l00666"></a><span class="lineno"><a class="line" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">  666</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *e,</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                       <span class="keywordtype">int</span> flen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;     <span class="comment">/* h cannot be e or f. */</span></div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;{</div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> Q;</div>
@@ -755,12 +755,12 @@ $(function() {
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;  <span class="keywordtype">int</span> eindex, findex, hindex;</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> enow, fnow;</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;  enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[0];</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;  enow = e[0];</div>
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;  fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[0];</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;  eindex = findex = 0;</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;  <span class="keywordflow">if</span> ((fnow &gt; enow) == (fnow &gt; -enow)) {</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    Q = enow;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[++eindex];</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    enow = e[++eindex];</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    Q = fnow;</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
@@ -769,35 +769,35 @@ $(function() {
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;  <span class="keywordflow">if</span> ((eindex &lt; elen) &amp;&amp; (findex &lt; flen)) {</div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <span class="keywordflow">if</span> ((fnow &gt; enow) == (fnow &gt; -enow)) {</div>
 <div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;      <a class="code" href="predicates_8cc.html#ae85afbfee038480d9baf7796514cb121">Fast_Two_Sum</a>(enow, Q, Qnew, hh);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;      enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[++eindex];</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;      enow = e[++eindex];</div>
 <div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;      <a class="code" href="predicates_8cc.html#ae85afbfee038480d9baf7796514cb121">Fast_Two_Sum</a>(fnow, Q, Qnew, hh);</div>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;      fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    }</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    Q = Qnew;</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="keywordflow">if</span> (hh != 0.0) {</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;      <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    }</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordflow">while</span> ((eindex &lt; elen) &amp;&amp; (findex &lt; flen)) {</div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;      <span class="keywordflow">if</span> ((fnow &gt; enow) == (fnow &gt; -enow)) {</div>
 <div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, enow, Qnew, hh);</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[++eindex];</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        enow = e[++eindex];</div>
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, fnow, Qnew, hh);</div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;      }</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;      Q = Qnew;</div>
 <div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;      <span class="keywordflow">if</span> (hh != 0.0) {</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;      }</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    }</div>
 <div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  }</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  <span class="keywordflow">while</span> (eindex &lt; elen) {</div>
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, enow, Qnew, hh);</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[++eindex];</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    enow = e[++eindex];</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    Q = Qnew;</div>
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">if</span> (hh != 0.0) {</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;      <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    }</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  }</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  <span class="keywordflow">while</span> (findex &lt; flen) {</div>
@@ -805,11 +805,11 @@ $(function() {
 <div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    Q = Qnew;</div>
 <div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="keywordflow">if</span> (hh != 0.0) {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;      <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    }</div>
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  }</div>
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  <span class="keywordflow">if</span> ((Q != 0.0) || (hindex == 0)) {</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = Q;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = Q;</div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  }</div>
 <div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;  <span class="keywordflow">return</span> hindex;</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;}</div>
@@ -829,7 +829,7 @@ $(function() {
 <div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;<span class="comment">/*                                                                           */</span></div>
 <div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160; </div>
-<div class="line"><a name="l00752"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">  752</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
+<div class="line"><a name="l00752"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">  752</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *e, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
 <div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;     <span class="comment">/* e and h cannot be the same. */</span></div>
 <div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;{</div>
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> Q, sum;</div>
@@ -846,25 +846,25 @@ $(function() {
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> err1, err2, err3;</div>
 <div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160; </div>
 <div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;  <a class="code" href="predicates_8cc.html#aeeb6165c4120f8480d2f92fa7e3061ab">Split</a>(<a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, bhi, blo);</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;  <a class="code" href="predicates_8cc.html#a4b7fb41ff1c60fa3b701bc405a5c5e46">Two_Product_Presplit</a>(<a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[0], <a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, bhi, blo, Q, hh);</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;  <a class="code" href="predicates_8cc.html#a4b7fb41ff1c60fa3b701bc405a5c5e46">Two_Product_Presplit</a>(e[0], <a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, bhi, blo, Q, hh);</div>
 <div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;  hindex = 0;</div>
 <div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;  <span class="keywordflow">if</span> (hh != 0) {</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  }</div>
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;  <span class="keywordflow">for</span> (eindex = 1; eindex &lt; elen; eindex++) {</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;    enow = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[eindex];</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;    enow = e[eindex];</div>
 <div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    <a class="code" href="predicates_8cc.html#a4b7fb41ff1c60fa3b701bc405a5c5e46">Two_Product_Presplit</a>(enow, <a class="code" href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">b</a>, bhi, blo, product1, product0);</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;    <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, product0, sum, hh);</div>
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    <span class="keywordflow">if</span> (hh != 0) {</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;      <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    }</div>
 <div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;    <a class="code" href="predicates_8cc.html#ae85afbfee038480d9baf7796514cb121">Fast_Two_Sum</a>(product1, sum, Q, hh);</div>
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    <span class="keywordflow">if</span> (hh != 0) {</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;      <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;    }</div>
 <div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;  }</div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;  <span class="keywordflow">if</span> ((Q != 0.0) || (hindex == 0)) {</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <a class="code" href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = Q;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = Q;</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  }</div>
 <div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;  <span class="keywordflow">return</span> hindex;</div>
 <div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;}</div>
@@ -877,14 +877,14 @@ $(function() {
 <div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;<span class="comment">/*                                                                           */</span></div>
 <div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
-<div class="line"><a name="l00800"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">  800</a></span>&#160;<span class="keyword">static</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>)</div>
+<div class="line"><a name="l00800"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">  800</a></span>&#160;<span class="keyword">static</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *e)</div>
 <div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;{</div>
 <div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> Q;</div>
 <div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;  <span class="keywordtype">int</span> eindex;</div>
 <div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160; </div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;  Q = <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[0];</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;  Q = e[0];</div>
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;  <span class="keywordflow">for</span> (eindex = 1; eindex &lt; elen; eindex++) {</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    Q += <a class="code" href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a>[eindex];</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    Q += e[eindex];</div>
 <div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;  }</div>
 <div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;  <span class="keywordflow">return</span> Q;</div>
 <div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;}</div>
@@ -921,11 +921,11 @@ $(function() {
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> acxtail, acytail, bcxtail, bcytail;</div>
 <div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detleft, detright;</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detlefttail, detrighttail;</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>, errbound;</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>[4], C1[8], C2[12], <a class="code" href="geometry_8asy.html#a5e0608bee06090712681b5b1ad6ae040">D</a>[16];</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det, errbound;</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>[4], C1[8], C2[12], <a class="code" href="namespacesym.html#a8b750f403d50a80e1a087b5ff6cd1bf5">D</a>[16];</div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> B3;</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;  <span class="keywordtype">int</span> C1length, C2length, Dlength;</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[4];</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u[4];</div>
 <div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u3;</div>
 <div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> s1, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>;</div>
 <div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> s0, t0;</div>
@@ -948,13 +948,13 @@ $(function() {
 <div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acy, bcx, detright, detrighttail);</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160; </div>
 <div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(detleft, detlefttail, detright, detrighttail,</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;               B3, <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>[2], <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>[1], <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>[0]);</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;  <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>[3] = B3;</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;               B3, <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>[2], <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>[1], <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>[0]);</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;  <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>[3] = B3;</div>
 <div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160; </div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(4, <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>);</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;  det = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(4, <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>);</div>
 <div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a9b65c7ffb9d75528c7d8821c6387dc70">ccwerrboundB</a> * detsum;</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;  }</div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160; </div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;  <a class="code" href="predicates_8cc.html#a636a9c6e1b1171cbf745575166954389">Two_Diff_Tail</a>(pa[0], pc[0], acx, acxtail);</div>
@@ -964,40 +964,40 @@ $(function() {
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160; </div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;  <span class="keywordflow">if</span> ((acxtail == 0.0) &amp;&amp; (acytail == 0.0)</div>
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;      &amp;&amp; (bcxtail == 0.0) &amp;&amp; (bcytail == 0.0)) {</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;  }</div>
 <div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160; </div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a9388a166d9e6831afc36f92868e7f11c">ccwerrboundC</a> * detsum + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>);</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> += (acx * bcytail + bcy * acxtail)</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a9388a166d9e6831afc36f92868e7f11c">ccwerrboundC</a> * detsum + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(det);</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;  det += (acx * bcytail + bcy * acxtail)</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;       - (acy * bcxtail + bcx * acytail);</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;  }</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160; </div>
 <div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acxtail, bcy, s1, s0);</div>
 <div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acytail, bcx, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0);</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;  <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;  C1length = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, <a class="code" href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">B</a>, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, C1);</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;  u[3] = u3;</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;  C1length = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, <a class="code" href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a>, 4, u, C1);</div>
 <div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160; </div>
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acx, bcytail, s1, s0);</div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acy, bcxtail, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;  <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;  C2length = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(C1length, C1, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, C2);</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;  u[3] = u3;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;  C2length = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(C1length, C1, 4, u, C2);</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160; </div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acxtail, bcytail, s1, s0);</div>
 <div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;  <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(acytail, bcxtail, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0);</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;  <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;  Dlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(C2length, C2, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, <a class="code" href="geometry_8asy.html#a5e0608bee06090712681b5b1ad6ae040">D</a>);</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;  <a class="code" href="predicates_8cc.html#ab4f08ad5dba11bbdf27b64132824b3a3">Two_Two_Diff</a>(s1, s0, <a class="code" href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a>, t0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;  u[3] = u3;</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;  Dlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(C2length, C2, 4, u, <a class="code" href="namespacesym.html#a8b750f403d50a80e1a087b5ff6cd1bf5">D</a>);</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160; </div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;  <span class="keywordflow">return</span>(<a class="code" href="geometry_8asy.html#a5e0608bee06090712681b5b1ad6ae040">D</a>[Dlength - 1]);</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;  <span class="keywordflow">return</span>(<a class="code" href="namespacesym.html#a8b750f403d50a80e1a087b5ff6cd1bf5">D</a>[Dlength - 1]);</div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;}</div>
 <div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160; </div>
 <div class="line"><a name="l00918"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a21c9489af9abe034e0fae3d135cce9eb">  918</a></span>&#160;<a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="predicates_8cc.html#a21c9489af9abe034e0fae3d135cce9eb">orient2d</a>(<span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *pa, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *pb, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *pc)</div>
 <div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;{</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detleft, detright, <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detleft, detright, det;</div>
 <div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detsum, errbound;</div>
 <div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> orient;</div>
 <div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160; </div>
@@ -1005,31 +1005,31 @@ $(function() {
 <div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160; </div>
 <div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;  detleft = (pa[0] - pc[0]) * (pb[1] - pc[1]);</div>
 <div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;  detright = (pa[1] - pc[1]) * (pb[0] - pc[0]);</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = detleft - detright;</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;  det = detleft - detright;</div>
 <div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160; </div>
 <div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;  <span class="keywordflow">if</span> (detleft &gt; 0.0) {</div>
 <div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordflow">if</span> (detright &lt;= 0.0) {</div>
 <div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;      <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;      <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;      detsum = detleft + detright;</div>
 <div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;    }</div>
 <div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (detleft &lt; 0.0) {</div>
 <div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    <span class="keywordflow">if</span> (detright &gt;= 0.0) {</div>
 <div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;      <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;      <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;      detsum = -detleft - detright;</div>
 <div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;    }</div>
 <div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;  }</div>
 <div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160; </div>
 <div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#af5402b92cea913e8ba00e3b7ad204ba6">ccwerrboundA</a> * detsum;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;  }</div>
 <div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160; </div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;  orient = <a class="code" href="predicates_8cc.html#a70c2e8cf7591ccc515c1a6d65572f9ed">orient2dadapt</a>(pa, pb, pc, detsum);</div>
@@ -1040,7 +1040,7 @@ $(function() {
 <div class="line"><a name="l00960"></a><span class="lineno"><a class="line" href="predicates_8cc.html#a4cce66bb85a602c44ed8c3016c2e2790">  960</a></span>&#160;<a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="predicates_8cc.html#a21c9489af9abe034e0fae3d135cce9eb">orient2d</a>(<span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> ax, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> ay, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bx, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> by,</div>
 <div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;              <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> cx, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> cy)</div>
 <div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;{</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detleft, detright, <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detleft, detright, det;</div>
 <div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> detsum, errbound;</div>
 <div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> orient;</div>
 <div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160; </div>
@@ -1048,31 +1048,31 @@ $(function() {
 <div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160; </div>
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;  detleft = (ax - cx) * (by - cy);</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;  detright = (ay - cy) * (bx - cx);</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = detleft - detright;</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;  det = detleft - detright;</div>
 <div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160; </div>
 <div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;  <span class="keywordflow">if</span> (detleft &gt; 0.0) {</div>
 <div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;    <span class="keywordflow">if</span> (detright &lt;= 0.0) {</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;      <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;      <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;      detsum = detleft + detright;</div>
 <div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;    }</div>
 <div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (detleft &lt; 0.0) {</div>
 <div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;    <span class="keywordflow">if</span> (detright &gt;= 0.0) {</div>
 <div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;      <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;      <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;      detsum = -detleft - detright;</div>
 <div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;    }</div>
 <div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;  }</div>
 <div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160; </div>
 <div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#af5402b92cea913e8ba00e3b7ad204ba6">ccwerrboundA</a> * detsum;</div>
-<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
 <div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;  }</div>
 <div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160; </div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> pa[]={ax,ay};</div>
@@ -1117,7 +1117,7 @@ $(function() {
 <div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;              <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent)</div>
 <div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;{</div>
 <div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adx, bdx, cdx, ady, bdy, cdy, adz, bdz, cdz;</div>
-<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>, errbound;</div>
+<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det, errbound;</div>
 <div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160; </div>
 <div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy1, cdxbdy1, cdxady1, adxcdy1, adxbdy1, bdxady1;</div>
 <div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy0, cdxbdy0, cdxady0, adxcdy0, adxbdy0, bdxady0;</div>
@@ -1153,7 +1153,7 @@ $(function() {
 <div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adxt_cdyt1, adxt_bdyt1, bdxt_adyt1;</div>
 <div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxt_cdyt0, cdxt_bdyt0, cdxt_adyt0;</div>
 <div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adxt_cdyt0, adxt_bdyt0, bdxt_adyt0;</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[4], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[12], w[16];</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u[4], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[12], w[16];</div>
 <div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u3;</div>
 <div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;  <span class="keywordtype">int</span> vlength, wlength;</div>
 <div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>;</div>
@@ -1198,10 +1198,10 @@ $(function() {
 <div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;  ablen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(alen, adet, blen, bdet, abdet);</div>
 <div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;  finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(ablen, abdet, clen, cdet, fin1);</div>
 <div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160; </div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;  det = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
 <div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a56bfaa1f006c61b043b00e6db8b602bf">o3derrboundB</a> * permanent;</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;  }</div>
 <div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160; </div>
 <div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;  <a class="code" href="predicates_8cc.html#a636a9c6e1b1171cbf745575166954389">Two_Diff_Tail</a>(pa[0], pd[0], adx, adxtail);</div>
@@ -1217,11 +1217,11 @@ $(function() {
 <div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;  <span class="keywordflow">if</span> ((adxtail == 0.0) &amp;&amp; (bdxtail == 0.0) &amp;&amp; (cdxtail == 0.0)</div>
 <div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;      &amp;&amp; (adytail == 0.0) &amp;&amp; (bdytail == 0.0) &amp;&amp; (cdytail == 0.0)</div>
 <div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;      &amp;&amp; (adztail == 0.0) &amp;&amp; (bdztail == 0.0) &amp;&amp; (cdztail == 0.0)) {</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;  }</div>
 <div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160; </div>
-<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#af768fd7828c924b63a5788310759c25e">o3derrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>);</div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> += (adz * ((bdx * cdytail + cdy * bdxtail)</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#af768fd7828c924b63a5788310759c25e">o3derrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(det);</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  det += (adz * ((bdx * cdytail + cdy * bdxtail)</div>
 <div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;                 - (bdy * cdxtail + cdx * bdytail))</div>
 <div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;          + adztail * (bdx * cdy - bdy * cdx))</div>
 <div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;       + (bdz * ((cdx * adytail + ady * cdxtail)</div>
@@ -1230,8 +1230,8 @@ $(function() {
 <div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;       + (cdz * ((adx * bdytail + bdy * adxtail)</div>
 <div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;                 - (ady * bdxtail + bdx * adytail))</div>
 <div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;          + cdztail * (adx * bdy - ady * bdx));</div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;  }</div>
 <div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160; </div>
 <div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;  finnow = fin1;</div>
@@ -1374,20 +1374,20 @@ $(function() {
 <div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;  finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160; </div>
 <div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;  <span class="keywordflow">if</span> (adztail != 0.0) {</div>
-<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, bc, adztail, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
-<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>,</div>
+<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, bc, adztail, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
+<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>,</div>
 <div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;                                            finother);</div>
 <div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;    finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01301"></a><span class="lineno"> 1301</span>&#160;  }</div>
 <div class="line"><a name="l01302"></a><span class="lineno"> 1302</span>&#160;  <span class="keywordflow">if</span> (bdztail != 0.0) {</div>
-<div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, ca, bdztail, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
-<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>,</div>
+<div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, ca, bdztail, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
+<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>,</div>
 <div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;                                            finother);</div>
 <div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;    finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;  }</div>
 <div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;  <span class="keywordflow">if</span> (cdztail != 0.0) {</div>
-<div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, ab, cdztail, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>);</div>
-<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>,</div>
+<div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;    vlength = <a class="code" href="predicates_8cc.html#a2b7eaff10b48b5722602c6943cb987c6">scale_expansion_zeroelim</a>(4, ab, cdztail, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>);</div>
+<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;    finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, vlength, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>,</div>
 <div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;                                            finother);</div>
 <div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;    finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;  }</div>
@@ -1395,15 +1395,15 @@ $(function() {
 <div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;  <span class="keywordflow">if</span> (adxtail != 0.0) {</div>
 <div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;    <span class="keywordflow">if</span> (bdytail != 0.0) {</div>
 <div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adxtail, bdytail, adxt_bdyt1, adxt_bdyt0);</div>
-<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_bdyt1, adxt_bdyt0, cdz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_bdyt1, adxt_bdyt0, cdz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;      <span class="keywordflow">if</span> (cdztail != 0.0) {</div>
-<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_bdyt1, adxt_bdyt0, cdztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_bdyt1, adxt_bdyt0, cdztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01327"></a><span class="lineno"> 1327</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;      }</div>
@@ -1411,15 +1411,15 @@ $(function() {
 <div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;    <span class="keywordflow">if</span> (cdytail != 0.0) {</div>
 <div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -adxtail;</div>
 <div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(<a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, cdytail, adxt_cdyt1, adxt_cdyt0);</div>
-<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_cdyt1, adxt_cdyt0, bdz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_cdyt1, adxt_cdyt0, bdz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;      <span class="keywordflow">if</span> (bdztail != 0.0) {</div>
-<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_cdyt1, adxt_cdyt0, bdztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(adxt_cdyt1, adxt_cdyt0, bdztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;      }</div>
@@ -1428,15 +1428,15 @@ $(function() {
 <div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;  <span class="keywordflow">if</span> (bdxtail != 0.0) {</div>
 <div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;    <span class="keywordflow">if</span> (cdytail != 0.0) {</div>
 <div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdxtail, cdytail, bdxt_cdyt1, bdxt_cdyt0);</div>
-<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_cdyt1, bdxt_cdyt0, adz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_cdyt1, bdxt_cdyt0, adz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01356"></a><span class="lineno"> 1356</span>&#160;      <span class="keywordflow">if</span> (adztail != 0.0) {</div>
-<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_cdyt1, bdxt_cdyt0, adztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_cdyt1, bdxt_cdyt0, adztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;      }</div>
@@ -1444,15 +1444,15 @@ $(function() {
 <div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;    <span class="keywordflow">if</span> (adytail != 0.0) {</div>
 <div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -bdxtail;</div>
 <div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(<a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, adytail, bdxt_adyt1, bdxt_adyt0);</div>
-<div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_adyt1, bdxt_adyt0, cdz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_adyt1, bdxt_adyt0, cdz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;      <span class="keywordflow">if</span> (cdztail != 0.0) {</div>
-<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_adyt1, bdxt_adyt0, cdztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(bdxt_adyt1, bdxt_adyt0, cdztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;      }</div>
@@ -1461,15 +1461,15 @@ $(function() {
 <div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;  <span class="keywordflow">if</span> (cdxtail != 0.0) {</div>
 <div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;    <span class="keywordflow">if</span> (adytail != 0.0) {</div>
 <div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdxtail, adytail, cdxt_adyt1, cdxt_adyt0);</div>
-<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_adyt1, cdxt_adyt0, bdz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_adyt1, cdxt_adyt0, bdz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;      <span class="keywordflow">if</span> (bdztail != 0.0) {</div>
-<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_adyt1, cdxt_adyt0, bdztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_adyt1, cdxt_adyt0, bdztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;      }</div>
@@ -1477,15 +1477,15 @@ $(function() {
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;    <span class="keywordflow">if</span> (bdytail != 0.0) {</div>
 <div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -cdxtail;</div>
 <div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(<a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, bdytail, cdxt_bdyt1, cdxt_bdyt0);</div>
-<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_bdyt1, cdxt_bdyt0, adz, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;      <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_bdyt1, cdxt_bdyt0, adz, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;      u[3] = u3;</div>
+<div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;      finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;                                              finother);</div>
 <div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;      finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;      <span class="keywordflow">if</span> (adztail != 0.0) {</div>
-<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_bdyt1, cdxt_bdyt0, adztail, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;        <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
-<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>,</div>
+<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;        <a class="code" href="predicates_8cc.html#ab4cdb5eb173ed61eb35e082b0a4a6043">Two_One_Product</a>(cdxt_bdyt1, cdxt_bdyt0, adztail, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;        u[3] = u3;</div>
+<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;        finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(finlength, finnow, 4, u,</div>
 <div class="line"><a name="l01409"></a><span class="lineno"> 1409</span>&#160;                                                finother);</div>
 <div class="line"><a name="l01410"></a><span class="lineno"> 1410</span>&#160;        finswap = finnow; finnow = finother; finother = finswap;</div>
 <div class="line"><a name="l01411"></a><span class="lineno"> 1411</span>&#160;      }</div>
@@ -1518,7 +1518,7 @@ $(function() {
 <div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;{</div>
 <div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adx, bdx, cdx, ady, bdy, cdy, adz, bdz, cdz;</div>
 <div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy, cdxbdy, cdxady, adxcdy, adxbdy, bdxady;</div>
-<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det;</div>
 <div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent, errbound;</div>
 <div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> orient;</div>
 <div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160; </div>
@@ -1543,7 +1543,7 @@ $(function() {
 <div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;  adxbdy = adx * bdy;</div>
 <div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;  bdxady = bdx * ady;</div>
 <div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160; </div>
-<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = adz * (bdxcdy - cdxbdy)</div>
+<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;  det = adz * (bdxcdy - cdxbdy)</div>
 <div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;      + bdz * (cdxady - adxcdy)</div>
 <div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;      + cdz * (adxbdy - bdxady);</div>
 <div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160; </div>
@@ -1551,9 +1551,9 @@ $(function() {
 <div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(cdxady) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxcdy)) * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(bdz)</div>
 <div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxbdy) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(bdxady)) * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(cdz);</div>
 <div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a6d91835dbf52c188362424d332d11199">o3derrboundA</a> * permanent;</div>
-<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound)) {</div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;  <span class="keywordflow">if</span> ((det &gt; errbound) || (-det &gt; errbound)) {</div>
 <div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;  }</div>
 <div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160; </div>
 <div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;  orient = <a class="code" href="predicates_8cc.html#ae8da3a6b626b37ffa4505a28cbc209c7">orient3dadapt</a>(pa, pb, pc, pd, permanent);</div>
@@ -1591,7 +1591,7 @@ $(function() {
 <div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;              <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent)</div>
 <div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;{</div>
 <div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adx, bdx, cdx, ady, bdy, cdy;</div>
-<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>, errbound;</div>
+<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det, errbound;</div>
 <div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160; </div>
 <div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy1, cdxbdy1, cdxady1, adxcdy1, adxbdy1, bdxady1;</div>
 <div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy0, cdxbdy0, cdxady0, adxcdy0, adxbdy0, bdxady0;</div>
@@ -1616,7 +1616,7 @@ $(function() {
 <div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> aa3, bb3, cc3;</div>
 <div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> ti1, tj1;</div>
 <div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> ti0, tj0;</div>
-<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[4], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[4];</div>
+<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u[4], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[4];</div>
 <div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> u3, v3;</div>
 <div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> temp8[8], temp16a[16], temp16b[16], temp16c[16];</div>
 <div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> temp32a[32], temp32b[32], temp48[48], temp64[64];</div>
@@ -1693,10 +1693,10 @@ $(function() {
 <div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;  ablen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(alen, adet, blen, bdet, abdet);</div>
 <div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;  finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(ablen, abdet, clen, cdet, fin1);</div>
 <div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160; </div>
-<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
+<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;  det = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
 <div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a7a1ba37d6291fb3f6605f180e90cbe1a">iccerrboundB</a> * permanent;</div>
-<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01620"></a><span class="lineno"> 1620</span>&#160;  }</div>
 <div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160; </div>
 <div class="line"><a name="l01622"></a><span class="lineno"> 1622</span>&#160;  <a class="code" href="predicates_8cc.html#a636a9c6e1b1171cbf745575166954389">Two_Diff_Tail</a>(pa[0], pd[0], adx, adxtail);</div>
@@ -1707,11 +1707,11 @@ $(function() {
 <div class="line"><a name="l01627"></a><span class="lineno"> 1627</span>&#160;  <a class="code" href="predicates_8cc.html#a636a9c6e1b1171cbf745575166954389">Two_Diff_Tail</a>(pc[1], pd[1], cdy, cdytail);</div>
 <div class="line"><a name="l01628"></a><span class="lineno"> 1628</span>&#160;  <span class="keywordflow">if</span> ((adxtail == 0.0) &amp;&amp; (bdxtail == 0.0) &amp;&amp; (cdxtail == 0.0)</div>
 <div class="line"><a name="l01629"></a><span class="lineno"> 1629</span>&#160;      &amp;&amp; (adytail == 0.0) &amp;&amp; (bdytail == 0.0) &amp;&amp; (cdytail == 0.0)) {</div>
-<div class="line"><a name="l01630"></a><span class="lineno"> 1630</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01630"></a><span class="lineno"> 1630</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01631"></a><span class="lineno"> 1631</span>&#160;  }</div>
 <div class="line"><a name="l01632"></a><span class="lineno"> 1632</span>&#160; </div>
-<div class="line"><a name="l01633"></a><span class="lineno"> 1633</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#ae34d180506c18e5c83ce9484ec167468">iccerrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>);</div>
-<div class="line"><a name="l01634"></a><span class="lineno"> 1634</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> += ((adx * adx + ady * ady) * ((bdx * cdytail + cdy * bdxtail)</div>
+<div class="line"><a name="l01633"></a><span class="lineno"> 1633</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#ae34d180506c18e5c83ce9484ec167468">iccerrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(det);</div>
+<div class="line"><a name="l01634"></a><span class="lineno"> 1634</span>&#160;  det += ((adx * adx + ady * ady) * ((bdx * cdytail + cdy * bdxtail)</div>
 <div class="line"><a name="l01635"></a><span class="lineno"> 1635</span>&#160;                                     - (bdy * cdxtail + cdx * bdytail))</div>
 <div class="line"><a name="l01636"></a><span class="lineno"> 1636</span>&#160;          + 2.0 * (adx * adxtail + ady * adytail) * (bdx * cdy - bdy * cdx))</div>
 <div class="line"><a name="l01637"></a><span class="lineno"> 1637</span>&#160;       + ((bdx * bdx + bdy * bdy) * ((cdx * adytail + ady * cdxtail)</div>
@@ -1720,8 +1720,8 @@ $(function() {
 <div class="line"><a name="l01640"></a><span class="lineno"> 1640</span>&#160;       + ((cdx * cdx + cdy * cdy) * ((adx * bdytail + bdy * adxtail)</div>
 <div class="line"><a name="l01641"></a><span class="lineno"> 1641</span>&#160;                                     - (ady * bdxtail + bdx * adytail))</div>
 <div class="line"><a name="l01642"></a><span class="lineno"> 1642</span>&#160;          + 2.0 * (cdx * cdxtail + cdy * cdytail) * (adx * bdy - ady * bdx));</div>
-<div class="line"><a name="l01643"></a><span class="lineno"> 1643</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l01644"></a><span class="lineno"> 1644</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l01643"></a><span class="lineno"> 1643</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l01644"></a><span class="lineno"> 1644</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l01645"></a><span class="lineno"> 1645</span>&#160;  }</div>
 <div class="line"><a name="l01646"></a><span class="lineno"> 1646</span>&#160; </div>
 <div class="line"><a name="l01647"></a><span class="lineno"> 1647</span>&#160;  finnow = fin1;</div>
@@ -1869,15 +1869,15 @@ $(function() {
 <div class="line"><a name="l01789"></a><span class="lineno"> 1789</span>&#160;        || (cdxtail != 0.0) || (cdytail != 0.0)) {</div>
 <div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdxtail, cdy, ti1, ti0);</div>
 <div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdx, cdytail, tj1, tj0);</div>
-<div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
+<div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;      u[3] = u3;</div>
 <div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -bdy;</div>
 <div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdxtail, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, ti1, ti0);</div>
 <div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -bdytail;</div>
 <div class="line"><a name="l01797"></a><span class="lineno"> 1797</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdx, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, tj1, tj0);</div>
-<div class="line"><a name="l01798"></a><span class="lineno"> 1798</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[2], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[1], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[0]);</div>
-<div class="line"><a name="l01799"></a><span class="lineno"> 1799</span>&#160;      <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[3] = v3;</div>
-<div class="line"><a name="l01800"></a><span class="lineno"> 1800</span>&#160;      bctlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, 4, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>, bct);</div>
+<div class="line"><a name="l01798"></a><span class="lineno"> 1798</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[2], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[1], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[0]);</div>
+<div class="line"><a name="l01799"></a><span class="lineno"> 1799</span>&#160;      <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[3] = v3;</div>
+<div class="line"><a name="l01800"></a><span class="lineno"> 1800</span>&#160;      bctlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, u, 4, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>, bct);</div>
 <div class="line"><a name="l01801"></a><span class="lineno"> 1801</span>&#160; </div>
 <div class="line"><a name="l01802"></a><span class="lineno"> 1802</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdxtail, cdytail, ti1, ti0);</div>
 <div class="line"><a name="l01803"></a><span class="lineno"> 1803</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdxtail, bdytail, tj1, tj0);</div>
@@ -1966,15 +1966,15 @@ $(function() {
 <div class="line"><a name="l01886"></a><span class="lineno"> 1886</span>&#160;        || (adxtail != 0.0) || (adytail != 0.0)) {</div>
 <div class="line"><a name="l01887"></a><span class="lineno"> 1887</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdxtail, ady, ti1, ti0);</div>
 <div class="line"><a name="l01888"></a><span class="lineno"> 1888</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdx, adytail, tj1, tj0);</div>
-<div class="line"><a name="l01889"></a><span class="lineno"> 1889</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01890"></a><span class="lineno"> 1890</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
+<div class="line"><a name="l01889"></a><span class="lineno"> 1889</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01890"></a><span class="lineno"> 1890</span>&#160;      u[3] = u3;</div>
 <div class="line"><a name="l01891"></a><span class="lineno"> 1891</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -cdy;</div>
 <div class="line"><a name="l01892"></a><span class="lineno"> 1892</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adxtail, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, ti1, ti0);</div>
 <div class="line"><a name="l01893"></a><span class="lineno"> 1893</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -cdytail;</div>
 <div class="line"><a name="l01894"></a><span class="lineno"> 1894</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adx, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, tj1, tj0);</div>
-<div class="line"><a name="l01895"></a><span class="lineno"> 1895</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[2], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[1], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[0]);</div>
-<div class="line"><a name="l01896"></a><span class="lineno"> 1896</span>&#160;      <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[3] = v3;</div>
-<div class="line"><a name="l01897"></a><span class="lineno"> 1897</span>&#160;      catlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, 4, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>, cat);</div>
+<div class="line"><a name="l01895"></a><span class="lineno"> 1895</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[2], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[1], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[0]);</div>
+<div class="line"><a name="l01896"></a><span class="lineno"> 1896</span>&#160;      <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[3] = v3;</div>
+<div class="line"><a name="l01897"></a><span class="lineno"> 1897</span>&#160;      catlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, u, 4, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>, cat);</div>
 <div class="line"><a name="l01898"></a><span class="lineno"> 1898</span>&#160; </div>
 <div class="line"><a name="l01899"></a><span class="lineno"> 1899</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(cdxtail, adytail, ti1, ti0);</div>
 <div class="line"><a name="l01900"></a><span class="lineno"> 1900</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adxtail, cdytail, tj1, tj0);</div>
@@ -2063,15 +2063,15 @@ $(function() {
 <div class="line"><a name="l01983"></a><span class="lineno"> 1983</span>&#160;        || (bdxtail != 0.0) || (bdytail != 0.0)) {</div>
 <div class="line"><a name="l01984"></a><span class="lineno"> 1984</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adxtail, bdy, ti1, ti0);</div>
 <div class="line"><a name="l01985"></a><span class="lineno"> 1985</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adx, bdytail, tj1, tj0);</div>
-<div class="line"><a name="l01986"></a><span class="lineno"> 1986</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[2], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[1], <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[0]);</div>
-<div class="line"><a name="l01987"></a><span class="lineno"> 1987</span>&#160;      <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>[3] = u3;</div>
+<div class="line"><a name="l01986"></a><span class="lineno"> 1986</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, u3, u[2], u[1], u[0]);</div>
+<div class="line"><a name="l01987"></a><span class="lineno"> 1987</span>&#160;      u[3] = u3;</div>
 <div class="line"><a name="l01988"></a><span class="lineno"> 1988</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -ady;</div>
 <div class="line"><a name="l01989"></a><span class="lineno"> 1989</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdxtail, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, ti1, ti0);</div>
 <div class="line"><a name="l01990"></a><span class="lineno"> 1990</span>&#160;      <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a> = -adytail;</div>
 <div class="line"><a name="l01991"></a><span class="lineno"> 1991</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdx, <a class="code" href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">negate</a>, tj1, tj0);</div>
-<div class="line"><a name="l01992"></a><span class="lineno"> 1992</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[2], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[1], <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[0]);</div>
-<div class="line"><a name="l01993"></a><span class="lineno"> 1993</span>&#160;      <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>[3] = v3;</div>
-<div class="line"><a name="l01994"></a><span class="lineno"> 1994</span>&#160;      abtlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, <a class="code" href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a>, 4, <a class="code" href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a>, abt);</div>
+<div class="line"><a name="l01992"></a><span class="lineno"> 1992</span>&#160;      <a class="code" href="predicates_8cc.html#ae3c61622ca0206f23311a66c864f8fff">Two_Two_Sum</a>(ti1, ti0, tj1, tj0, v3, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[2], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[1], <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[0]);</div>
+<div class="line"><a name="l01993"></a><span class="lineno"> 1993</span>&#160;      <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>[3] = v3;</div>
+<div class="line"><a name="l01994"></a><span class="lineno"> 1994</span>&#160;      abtlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(4, u, 4, <a class="code" href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a>, abt);</div>
 <div class="line"><a name="l01995"></a><span class="lineno"> 1995</span>&#160; </div>
 <div class="line"><a name="l01996"></a><span class="lineno"> 1996</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(adxtail, bdytail, ti1, ti0);</div>
 <div class="line"><a name="l01997"></a><span class="lineno"> 1997</span>&#160;      <a class="code" href="predicates_8cc.html#a27f5145ac554d28b9c257ac0909d055b">Two_Product</a>(bdxtail, adytail, tj1, tj0);</div>
@@ -2164,7 +2164,7 @@ $(function() {
 <div class="line"><a name="l02084"></a><span class="lineno"> 2084</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adx, bdx, cdx, ady, bdy, cdy;</div>
 <div class="line"><a name="l02085"></a><span class="lineno"> 2085</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy, cdxbdy, cdxady, adxcdy, adxbdy, bdxady;</div>
 <div class="line"><a name="l02086"></a><span class="lineno"> 2086</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> alift, blift, clift;</div>
-<div class="line"><a name="l02087"></a><span class="lineno"> 2087</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02087"></a><span class="lineno"> 2087</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det;</div>
 <div class="line"><a name="l02088"></a><span class="lineno"> 2088</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent, errbound;</div>
 <div class="line"><a name="l02089"></a><span class="lineno"> 2089</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> inc;</div>
 <div class="line"><a name="l02090"></a><span class="lineno"> 2090</span>&#160; </div>
@@ -2189,7 +2189,7 @@ $(function() {
 <div class="line"><a name="l02109"></a><span class="lineno"> 2109</span>&#160;  bdxady = bdx * ady;</div>
 <div class="line"><a name="l02110"></a><span class="lineno"> 2110</span>&#160;  clift = cdx * cdx + cdy * cdy;</div>
 <div class="line"><a name="l02111"></a><span class="lineno"> 2111</span>&#160; </div>
-<div class="line"><a name="l02112"></a><span class="lineno"> 2112</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = alift * (bdxcdy - cdxbdy)</div>
+<div class="line"><a name="l02112"></a><span class="lineno"> 2112</span>&#160;  det = alift * (bdxcdy - cdxbdy)</div>
 <div class="line"><a name="l02113"></a><span class="lineno"> 2113</span>&#160;      + blift * (cdxady - adxcdy)</div>
 <div class="line"><a name="l02114"></a><span class="lineno"> 2114</span>&#160;      + clift * (adxbdy - bdxady);</div>
 <div class="line"><a name="l02115"></a><span class="lineno"> 2115</span>&#160; </div>
@@ -2197,9 +2197,9 @@ $(function() {
 <div class="line"><a name="l02117"></a><span class="lineno"> 2117</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(cdxady) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxcdy)) * blift</div>
 <div class="line"><a name="l02118"></a><span class="lineno"> 2118</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxbdy) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(bdxady)) * clift;</div>
 <div class="line"><a name="l02119"></a><span class="lineno"> 2119</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#ab1efb9f606f3d836e83b1a77a23b947e">iccerrboundA</a> * permanent;</div>
-<div class="line"><a name="l02120"></a><span class="lineno"> 2120</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound)) {</div>
+<div class="line"><a name="l02120"></a><span class="lineno"> 2120</span>&#160;  <span class="keywordflow">if</span> ((det &gt; errbound) || (-det &gt; errbound)) {</div>
 <div class="line"><a name="l02121"></a><span class="lineno"> 2121</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l02122"></a><span class="lineno"> 2122</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02122"></a><span class="lineno"> 2122</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02123"></a><span class="lineno"> 2123</span>&#160;  }</div>
 <div class="line"><a name="l02124"></a><span class="lineno"> 2124</span>&#160; </div>
 <div class="line"><a name="l02125"></a><span class="lineno"> 2125</span>&#160;  inc = <a class="code" href="predicates_8cc.html#a9417893dc81ab3f9f2fff0674f9b7a66">incircleadapt</a>(pa, pb, pc, pd, permanent);</div>
@@ -2213,7 +2213,7 @@ $(function() {
 <div class="line"><a name="l02133"></a><span class="lineno"> 2133</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> adx, bdx, cdx, ady, bdy, cdy;</div>
 <div class="line"><a name="l02134"></a><span class="lineno"> 2134</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> bdxcdy, cdxbdy, cdxady, adxcdy, adxbdy, bdxady;</div>
 <div class="line"><a name="l02135"></a><span class="lineno"> 2135</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> alift, blift, clift;</div>
-<div class="line"><a name="l02136"></a><span class="lineno"> 2136</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02136"></a><span class="lineno"> 2136</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det;</div>
 <div class="line"><a name="l02137"></a><span class="lineno"> 2137</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent, errbound;</div>
 <div class="line"><a name="l02138"></a><span class="lineno"> 2138</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> inc;</div>
 <div class="line"><a name="l02139"></a><span class="lineno"> 2139</span>&#160; </div>
@@ -2238,7 +2238,7 @@ $(function() {
 <div class="line"><a name="l02158"></a><span class="lineno"> 2158</span>&#160;  bdxady = bdx * ady;</div>
 <div class="line"><a name="l02159"></a><span class="lineno"> 2159</span>&#160;  clift = cdx * cdx + cdy * cdy;</div>
 <div class="line"><a name="l02160"></a><span class="lineno"> 2160</span>&#160; </div>
-<div class="line"><a name="l02161"></a><span class="lineno"> 2161</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = alift * (bdxcdy - cdxbdy)</div>
+<div class="line"><a name="l02161"></a><span class="lineno"> 2161</span>&#160;  det = alift * (bdxcdy - cdxbdy)</div>
 <div class="line"><a name="l02162"></a><span class="lineno"> 2162</span>&#160;      + blift * (cdxady - adxcdy)</div>
 <div class="line"><a name="l02163"></a><span class="lineno"> 2163</span>&#160;      + clift * (adxbdy - bdxady);</div>
 <div class="line"><a name="l02164"></a><span class="lineno"> 2164</span>&#160; </div>
@@ -2246,9 +2246,9 @@ $(function() {
 <div class="line"><a name="l02166"></a><span class="lineno"> 2166</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(cdxady) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxcdy)) * blift</div>
 <div class="line"><a name="l02167"></a><span class="lineno"> 2167</span>&#160;            + (<a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(adxbdy) + <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(bdxady)) * clift;</div>
 <div class="line"><a name="l02168"></a><span class="lineno"> 2168</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#ab1efb9f606f3d836e83b1a77a23b947e">iccerrboundA</a> * permanent;</div>
-<div class="line"><a name="l02169"></a><span class="lineno"> 2169</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound)) {</div>
+<div class="line"><a name="l02169"></a><span class="lineno"> 2169</span>&#160;  <span class="keywordflow">if</span> ((det &gt; errbound) || (-det &gt; errbound)) {</div>
 <div class="line"><a name="l02170"></a><span class="lineno"> 2170</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l02171"></a><span class="lineno"> 2171</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02171"></a><span class="lineno"> 2171</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02172"></a><span class="lineno"> 2172</span>&#160;  }</div>
 <div class="line"><a name="l02173"></a><span class="lineno"> 2173</span>&#160; </div>
 <div class="line"><a name="l02174"></a><span class="lineno"> 2174</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> pa[]={ax,ay};</div>
@@ -2544,7 +2544,7 @@ $(function() {
 <div class="line"><a name="l02464"></a><span class="lineno"> 2464</span>&#160;              <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent)</div>
 <div class="line"><a name="l02465"></a><span class="lineno"> 2465</span>&#160;{</div>
 <div class="line"><a name="l02466"></a><span class="lineno"> 2466</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> aex, bex, cex, dex, aey, bey, cey, dey, aez, bez, cez, dez;</div>
-<div class="line"><a name="l02467"></a><span class="lineno"> 2467</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>, errbound;</div>
+<div class="line"><a name="l02467"></a><span class="lineno"> 2467</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det, errbound;</div>
 <div class="line"><a name="l02468"></a><span class="lineno"> 2468</span>&#160; </div>
 <div class="line"><a name="l02469"></a><span class="lineno"> 2469</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> aexbey1, bexaey1, bexcey1, cexbey1;</div>
 <div class="line"><a name="l02470"></a><span class="lineno"> 2470</span>&#160;  <a class="code" href="predicates_8cc.html#ad49beae4f708cdfe26352d865ed2eb95">INEXACT</a> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> cexdey1, dexcey1, dexaey1, aexdey1;</div>
@@ -2690,10 +2690,10 @@ $(function() {
 <div class="line"><a name="l02610"></a><span class="lineno"> 2610</span>&#160;  cdlen = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(clen, cdet, dlen, ddet, cddet);</div>
 <div class="line"><a name="l02611"></a><span class="lineno"> 2611</span>&#160;  finlength = <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(ablen, abdet, cdlen, cddet, fin1);</div>
 <div class="line"><a name="l02612"></a><span class="lineno"> 2612</span>&#160; </div>
-<div class="line"><a name="l02613"></a><span class="lineno"> 2613</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
+<div class="line"><a name="l02613"></a><span class="lineno"> 2613</span>&#160;  det = <a class="code" href="predicates_8cc.html#a8aadb3c062b199719b9d132910528881">estimate</a>(finlength, fin1);</div>
 <div class="line"><a name="l02614"></a><span class="lineno"> 2614</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#aed912b90845316e9e74a87012b7cac4b">isperrboundB</a> * permanent;</div>
-<div class="line"><a name="l02615"></a><span class="lineno"> 2615</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l02616"></a><span class="lineno"> 2616</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02615"></a><span class="lineno"> 2615</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l02616"></a><span class="lineno"> 2616</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02617"></a><span class="lineno"> 2617</span>&#160;  }</div>
 <div class="line"><a name="l02618"></a><span class="lineno"> 2618</span>&#160; </div>
 <div class="line"><a name="l02619"></a><span class="lineno"> 2619</span>&#160;  <a class="code" href="predicates_8cc.html#a636a9c6e1b1171cbf745575166954389">Two_Diff_Tail</a>(pa[0], pe[0], aex, aextail);</div>
@@ -2712,10 +2712,10 @@ $(function() {
 <div class="line"><a name="l02632"></a><span class="lineno"> 2632</span>&#160;      &amp;&amp; (bextail == 0.0) &amp;&amp; (beytail == 0.0) &amp;&amp; (beztail == 0.0)</div>
 <div class="line"><a name="l02633"></a><span class="lineno"> 2633</span>&#160;      &amp;&amp; (cextail == 0.0) &amp;&amp; (ceytail == 0.0) &amp;&amp; (ceztail == 0.0)</div>
 <div class="line"><a name="l02634"></a><span class="lineno"> 2634</span>&#160;      &amp;&amp; (dextail == 0.0) &amp;&amp; (deytail == 0.0) &amp;&amp; (deztail == 0.0)) {</div>
-<div class="line"><a name="l02635"></a><span class="lineno"> 2635</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02635"></a><span class="lineno"> 2635</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02636"></a><span class="lineno"> 2636</span>&#160;  }</div>
 <div class="line"><a name="l02637"></a><span class="lineno"> 2637</span>&#160; </div>
-<div class="line"><a name="l02638"></a><span class="lineno"> 2638</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a4e7f503b4f0089551183edd1c41322ec">isperrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>);</div>
+<div class="line"><a name="l02638"></a><span class="lineno"> 2638</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a4e7f503b4f0089551183edd1c41322ec">isperrboundC</a> * permanent + <a class="code" href="predicates_8cc.html#a9992994b788b5311f9e1e1a9db853126">resulterrbound</a> * <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(det);</div>
 <div class="line"><a name="l02639"></a><span class="lineno"> 2639</span>&#160;  abeps = (aex * beytail + bey * aextail)</div>
 <div class="line"><a name="l02640"></a><span class="lineno"> 2640</span>&#160;        - (aey * bextail + bex * aeytail);</div>
 <div class="line"><a name="l02641"></a><span class="lineno"> 2641</span>&#160;  bceps = (bex * ceytail + cey * bextail)</div>
@@ -2728,7 +2728,7 @@ $(function() {
 <div class="line"><a name="l02648"></a><span class="lineno"> 2648</span>&#160;        - (aey * cextail + cex * aeytail);</div>
 <div class="line"><a name="l02649"></a><span class="lineno"> 2649</span>&#160;  bdeps = (bex * deytail + dey * bextail)</div>
 <div class="line"><a name="l02650"></a><span class="lineno"> 2650</span>&#160;        - (bey * dextail + dex * beytail);</div>
-<div class="line"><a name="l02651"></a><span class="lineno"> 2651</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> += (((bex * bex + bey * bey + bez * bez)</div>
+<div class="line"><a name="l02651"></a><span class="lineno"> 2651</span>&#160;  det += (((bex * bex + bey * bey + bez * bez)</div>
 <div class="line"><a name="l02652"></a><span class="lineno"> 2652</span>&#160;           * ((cez * daeps + dez * aceps + aez * cdeps)</div>
 <div class="line"><a name="l02653"></a><span class="lineno"> 2653</span>&#160;              + (ceztail * da3 + deztail * ac3 + aeztail * cd3))</div>
 <div class="line"><a name="l02654"></a><span class="lineno"> 2654</span>&#160;           + (dex * dex + dey * dey + dez * dez)</div>
@@ -2748,8 +2748,8 @@ $(function() {
 <div class="line"><a name="l02668"></a><span class="lineno"> 2668</span>&#160;                 * (bez * cd3 - cez * bd3 + dez * bc3)</div>
 <div class="line"><a name="l02669"></a><span class="lineno"> 2669</span>&#160;                 + (cex * cextail + cey * ceytail + cez * ceztail)</div>
 <div class="line"><a name="l02670"></a><span class="lineno"> 2670</span>&#160;                 * (dez * ab3 + aez * bd3 + bez * da3)));</div>
-<div class="line"><a name="l02671"></a><span class="lineno"> 2671</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt;= errbound)) {</div>
-<div class="line"><a name="l02672"></a><span class="lineno"> 2672</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02671"></a><span class="lineno"> 2671</span>&#160;  <span class="keywordflow">if</span> ((det &gt;= errbound) || (-det &gt;= errbound)) {</div>
+<div class="line"><a name="l02672"></a><span class="lineno"> 2672</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02673"></a><span class="lineno"> 2673</span>&#160;  }</div>
 <div class="line"><a name="l02674"></a><span class="lineno"> 2674</span>&#160; </div>
 <div class="line"><a name="l02675"></a><span class="lineno"> 2675</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="predicates_8cc.html#a3b952689c92e5ff84b4504de26d362cf">insphereexact</a>(pa, pb, pc, pd, pe);</div>
@@ -2769,7 +2769,7 @@ $(function() {
 <div class="line"><a name="l02689"></a><span class="lineno"> 2689</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> aexbeyplus, bexaeyplus, bexceyplus, cexbeyplus;</div>
 <div class="line"><a name="l02690"></a><span class="lineno"> 2690</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> cexdeyplus, dexceyplus, dexaeyplus, aexdeyplus;</div>
 <div class="line"><a name="l02691"></a><span class="lineno"> 2691</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> aexceyplus, cexaeyplus, bexdeyplus, dexbeyplus;</div>
-<div class="line"><a name="l02692"></a><span class="lineno"> 2692</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02692"></a><span class="lineno"> 2692</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> det;</div>
 <div class="line"><a name="l02693"></a><span class="lineno"> 2693</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> permanent, errbound;</div>
 <div class="line"><a name="l02694"></a><span class="lineno"> 2694</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> ins;</div>
 <div class="line"><a name="l02695"></a><span class="lineno"> 2695</span>&#160; </div>
@@ -2818,7 +2818,7 @@ $(function() {
 <div class="line"><a name="l02738"></a><span class="lineno"> 2738</span>&#160;  clift = cex * cex + cey * cey + cez * cez;</div>
 <div class="line"><a name="l02739"></a><span class="lineno"> 2739</span>&#160;  dlift = dex * dex + dey * dey + dez * dez;</div>
 <div class="line"><a name="l02740"></a><span class="lineno"> 2740</span>&#160; </div>
-<div class="line"><a name="l02741"></a><span class="lineno"> 2741</span>&#160;  <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> = (dlift * abc - clift * dab) + (blift * cda - alift * bcd);</div>
+<div class="line"><a name="l02741"></a><span class="lineno"> 2741</span>&#160;  det = (dlift * abc - clift * dab) + (blift * cda - alift * bcd);</div>
 <div class="line"><a name="l02742"></a><span class="lineno"> 2742</span>&#160; </div>
 <div class="line"><a name="l02743"></a><span class="lineno"> 2743</span>&#160;  aezplus = <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(aez);</div>
 <div class="line"><a name="l02744"></a><span class="lineno"> 2744</span>&#160;  bezplus = <a class="code" href="predicates_8cc.html#aef0ab760424f561c08ca685b4fd28a3f">Absolute</a>(bez);</div>
@@ -2853,26 +2853,22 @@ $(function() {
 <div class="line"><a name="l02773"></a><span class="lineno"> 2773</span>&#160;               + (aexbeyplus + bexaeyplus) * cezplus)</div>
 <div class="line"><a name="l02774"></a><span class="lineno"> 2774</span>&#160;            * dlift;</div>
 <div class="line"><a name="l02775"></a><span class="lineno"> 2775</span>&#160;  errbound = <a class="code" href="predicates_8cc.html#a991bd5847e721591df0d12eab2da67d1">isperrboundA</a> * permanent;</div>
-<div class="line"><a name="l02776"></a><span class="lineno"> 2776</span>&#160;  <span class="keywordflow">if</span> ((<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound) || (-<a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a> &gt; errbound)) {</div>
+<div class="line"><a name="l02776"></a><span class="lineno"> 2776</span>&#160;  <span class="keywordflow">if</span> ((det &gt; errbound) || (-det &gt; errbound)) {</div>
 <div class="line"><a name="l02777"></a><span class="lineno"> 2777</span>&#160;    <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
-<div class="line"><a name="l02778"></a><span class="lineno"> 2778</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a>;</div>
+<div class="line"><a name="l02778"></a><span class="lineno"> 2778</span>&#160;    <span class="keywordflow">return</span> det;</div>
 <div class="line"><a name="l02779"></a><span class="lineno"> 2779</span>&#160;  }</div>
 <div class="line"><a name="l02780"></a><span class="lineno"> 2780</span>&#160; </div>
 <div class="line"><a name="l02781"></a><span class="lineno"> 2781</span>&#160;  ins = <a class="code" href="predicates_8cc.html#a8d8b2453f70bcaedce577f47330366a2">insphereadapt</a>(pa, pb, pc, pd, pe, permanent);</div>
 <div class="line"><a name="l02782"></a><span class="lineno"> 2782</span>&#160;  <a class="code" href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a>;</div>
 <div class="line"><a name="l02783"></a><span class="lineno"> 2783</span>&#160;  <span class="keywordflow">return</span> ins;</div>
 <div class="line"><a name="l02784"></a><span class="lineno"> 2784</span>&#160;}</div>
-<div class="ttc" id="acontour3_8asy_html_acb566003a29ebe66daede177a8165d13"><div class="ttname"><a href="contour3_8asy.html#acb566003a29ebe66daede177a8165d13">v</a></div><div class="ttdeci">private struct weighted v</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l01509">geometry.asy:1509</a></div></div>
-<div class="ttc" id="ageometry_8asy_html_a47b777634d50a400459a86805b5cb9ec"><div class="ttname"><a href="geometry_8asy.html#a47b777634d50a400459a86805b5cb9ec">det</a></div><div class="ttdeci">private real det(pair a, pair b)</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l05696">geometry.asy:5696</a></div></div>
-<div class="ttc" id="ageometry_8asy_html_a5e0608bee06090712681b5b1ad6ae040"><div class="ttname"><a href="geometry_8asy.html#a5e0608bee06090712681b5b1ad6ae040">D</a></div><div class="ttdeci">line D</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l02519">geometry.asy:2519</a></div></div>
-<div class="ttc" id="ageometry_8asy_html_a6d98d61acd9b8dd4e1fb6ebb6aa45a88"><div class="ttname"><a href="geometry_8asy.html#a6d98d61acd9b8dd4e1fb6ebb6aa45a88">u</a></div><div class="ttdeci">restricted vector u</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l01509">geometry.asy:1509</a></div></div>
-<div class="ttc" id="ageometry_8asy_html_aa7453a2639087da385aa95fdcdd725f4"><div class="ttname"><a href="geometry_8asy.html#aa7453a2639087da385aa95fdcdd725f4">e</a></div><div class="ttdeci">real e</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l02516">geometry.asy:2516</a></div></div>
-<div class="ttc" id="ageometry_8asy_html_aea48bde1a661e4c9d8cb7fd80af6a4d9"><div class="ttname"><a href="geometry_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a></div><div class="ttdeci">real h</div><div class="ttdef"><b>Definition:</b> <a href="geometry_8asy_source.html#l02516">geometry.asy:2516</a></div></div>
+<div class="ttc" id="acontour3_8asy_html_aa8268e00224bb04083e40d42224bca19"><div class="ttname"><a href="contour3_8asy.html#aa8268e00224bb04083e40d42224bca19">v</a></div><div class="ttdeci">private struct weighted v</div></div>
 <div class="ttc" id="anamespacecamp_html_a140ee24da92527a09fcf47ae58376525"><div class="ttname"><a href="namespacecamp.html#a140ee24da92527a09fcf47ae58376525">camp::c</a></div><div class="ttdeci">static pair c</div><div class="ttdef"><b>Definition:</b> <a href="path_8cc_source.html#l00582">path.cc:582</a></div></div>
 <div class="ttc" id="anamespacecamp_html_a3177f0c0c8dcbdc2a5415f4a10590f02"><div class="ttname"><a href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">camp::b</a></div><div class="ttdeci">static pair b</div><div class="ttdef"><b>Definition:</b> <a href="path_8cc_source.html#l00582">path.cc:582</a></div></div>
-<div class="ttc" id="anamespacesym_html_a0533c5b32e2975cbab98d64b79d23429"><div class="ttname"><a href="namespacesym.html#a0533c5b32e2975cbab98d64b79d23429">sym::B</a></div><div class="ttdeci">const uint B</div><div class="ttdef"><b>Definition:</b> <a href="symbol_8cc_source.html#l00089">symbol.cc:89</a></div></div>
+<div class="ttc" id="anamespacesym_html_a8b750f403d50a80e1a087b5ff6cd1bf5"><div class="ttname"><a href="namespacesym.html#a8b750f403d50a80e1a087b5ff6cd1bf5">sym::D</a></div><div class="ttdeci">const uint D</div><div class="ttdef"><b>Definition:</b> <a href="symbol_8cc_source.html#l00089">symbol.cc:89</a></div></div>
 <div class="ttc" id="anamespacetrans_html_aa24897a74c021968a76c29dee7b40282"><div class="ttname"><a href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">trans::negate</a></div><div class="ttdeci">T negate(T x)</div><div class="ttdef"><b>Definition:</b> <a href="builtin_8cc_source.html#l00523">builtin.cc:523</a></div></div>
 <div class="ttc" id="aplain__Label_8asy_html_a9e6cefa39a2af3b45b0a4511ac4d141e"><div class="ttname"><a href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a></div><div class="ttdeci">frame f</div><div class="ttdef"><b>Definition:</b> <a href="plain__Label_8asy_source.html#l00532">plain_Label.asy:532</a></div></div>
+<div class="ttc" id="aplain__pens_8asy_html_aea48bde1a661e4c9d8cb7fd80af6a4d9"><div class="ttname"><a href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a></div><div class="ttdeci">real h</div><div class="ttdef"><b>Definition:</b> <a href="plain__pens_8asy_source.html#l00303">plain_pens.asy:303</a></div></div>
 <div class="ttc" id="apredicates_8cc_html_a0970b35d7363dfcbb19c763718c1355c"><div class="ttname"><a href="predicates_8cc.html#a0970b35d7363dfcbb19c763718c1355c">insphere</a></div><div class="ttdeci">REAL insphere(const REAL *pa, const REAL *pb, const REAL *pc, const REAL *pd, const REAL *pe)</div><div class="ttdef"><b>Definition:</b> <a href="predicates_8cc_source.html#l02678">predicates.cc:2678</a></div></div>
 <div class="ttc" id="apredicates_8cc_html_a0cce77b99432ef29e32ed7481e470f10"><div class="ttname"><a href="predicates_8cc.html#a0cce77b99432ef29e32ed7481e470f10">Square</a></div><div class="ttdeci">#define Square(a, x, y)</div><div class="ttdef"><b>Definition:</b> <a href="predicates_8cc_source.html#l00250">predicates.cc:250</a></div></div>
 <div class="ttc" id="apredicates_8cc_html_a21c9489af9abe034e0fae3d135cce9eb"><div class="ttname"><a href="predicates_8cc.html#a21c9489af9abe034e0fae3d135cce9eb">orient2d</a></div><div class="ttdeci">REAL orient2d(const REAL *pa, const REAL *pb, const REAL *pc)</div><div class="ttdef"><b>Definition:</b> <a href="predicates_8cc_source.html#l00918">predicates.cc:918</a></div></div>
@@ -2919,6 +2915,7 @@ $(function() {
 <div class="ttc" id="arounding_8h_html_aeedfa7201b98e327651045c5de47f6ca"><div class="ttname"><a href="rounding_8h.html#aeedfa7201b98e327651045c5de47f6ca">FPU_RESTORE</a></div><div class="ttdeci">#define FPU_RESTORE</div><div class="ttdef"><b>Definition:</b> <a href="rounding_8h_source.html#l00088">rounding.h:88</a></div></div>
 <div class="ttc" id="athree__surface_8asy_html_a2a2902c82f84d2cc2b20ec95b68d6cf3"><div class="ttname"><a href="three__surface_8asy.html#a2a2902c82f84d2cc2b20ec95b68d6cf3">t1</a></div><div class="ttdeci">private transform3 t1</div><div class="ttdef"><b>Definition:</b> <a href="three__surface_8asy_source.html#l02238">three_surface.asy:2238</a></div></div>
 <div class="ttc" id="athree__surface_8asy_html_ac9f9b9e33f4127824d0ab473f28df545"><div class="ttname"><a href="three__surface_8asy.html#ac9f9b9e33f4127824d0ab473f28df545">i</a></div><div class="ttdeci">private transform3 i</div><div class="ttdef"><b>Definition:</b> <a href="three__surface_8asy_source.html#l02241">three_surface.asy:2241</a></div></div>
+<div class="ttc" id="av3d_8asy_html_ad26a456347218f12361d92d16b243683"><div class="ttname"><a href="v3d_8asy.html#ad26a456347218f12361d92d16b243683">B</a></div><div class="ttdeci">triple B</div><div class="ttdef"><b>Definition:</b> <a href="v3d_8asy_source.html#l00065">v3d.asy:65</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
