@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maximizer_12295',['maximizer',['../classtrans_1_1application.html#a989ef5da064325479aab169a5637c098',1,'trans::application']]]
+  ['maximizer_12278',['maximizer',['../classtrans_1_1application.html#a989ef5da064325479aab169a5637c098',1,'trans::application']]]
 ];

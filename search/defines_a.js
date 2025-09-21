@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['narrowrand_12372',['NARROWRAND',['../predicates_8cc.html#a573b0e3df6fc0f000607eca1c5569f68',1,'predicates.cc']]],
-  ['normal_5farg_12373',['NORMAL_ARG',['../policy_8h.html#accf22b7340b54f3a05f7843da1c2f66a',1,'policy.h']]]
+  ['narrowrand_12355',['NARROWRAND',['../predicates_8cc.html#a573b0e3df6fc0f000607eca1c5569f68',1,'predicates.cc']]],
+  ['normal_5farg_12356',['NORMAL_ARG',['../policy_8h.html#accf22b7340b54f3a05f7843da1c2f66a',1,'policy.h']]]
 ];
