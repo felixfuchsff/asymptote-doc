@@ -242,21 +242,21 @@ $(function() {
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
-<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="classtrans_1_1coder.html#af70bcd937f3033077bc4415c936b079e">  165</a></span>&#160;<span class="keywordtype">bool</span> coder::encode(<a class="code" href="classtrans_1_1frame.html">frame</a> *<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>)</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="classtrans_1_1coder.html#af70bcd937f3033077bc4415c936b079e">  165</a></span>&#160;<span class="keywordtype">bool</span> coder::encode(<a class="code" href="classtrans_1_1frame.html">frame</a> *<a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <a class="code" href="classtrans_1_1frame.html">frame</a> *toplevel = <a class="code" href="classtrans_1_1coder.html#aa363e2256fc1199cfa3a069e8f3f389e">getFrame</a>();</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a> == 0) {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a> == 0) {</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    encode(inst::constpush,(<a class="code" href="classvm_1_1item.html">item</a>)0);</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a> == toplevel) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a> == toplevel) {</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    encode(inst::pushclosure);</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  }</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    encode(inst::varpush,toplevel-&gt;<a class="code" href="classtrans_1_1frame.html#a5c08bf8a31e8d19280436e36c066b92b">parentIndex</a>());</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">return</span> encode(<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, toplevel-&gt;<a class="code" href="classtrans_1_1frame.html#a6d6fa2c453359eab8f68c956e4a56dfd">getParent</a>());</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">return</span> encode(<a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, toplevel-&gt;<a class="code" href="classtrans_1_1frame.html#a6d6fa2c453359eab8f68c956e4a56dfd">getParent</a>());</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  }</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
@@ -559,8 +559,8 @@ $(function() {
 <div class="ttc" id="anamespacetypes_html"><div class="ttname"><a href="namespacetypes.html">types</a></div><div class="ttdef"><b>Definition:</b> <a href="dec_8h_source.html#l00027">dec.h:27</a></div></div>
 <div class="ttc" id="anamespacevm_html"><div class="ttname"><a href="namespacevm.html">vm</a></div><div class="ttdef"><b>Definition:</b> <a href="access_8h_source.html#l00019">access.h:19</a></div></div>
 <div class="ttc" id="anamespacevm_html_a203ddf7ebd23bc08c69aacb8caf2a002"><div class="ttname"><a href="namespacevm.html#a203ddf7ebd23bc08c69aacb8caf2a002">vm::pop</a></div><div class="ttdeci">item pop(stack *s)</div><div class="ttdef"><b>Definition:</b> <a href="stack_8h_source.html#l00136">stack.h:136</a></div></div>
-<div class="ttc" id="aplain__Label_8asy_html_a9e6cefa39a2af3b45b0a4511ac4d141e"><div class="ttname"><a href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a></div><div class="ttdeci">frame f</div><div class="ttdef"><b>Definition:</b> <a href="plain__Label_8asy_source.html#l00532">plain_Label.asy:532</a></div></div>
 <div class="ttc" id="aplain__bounds_8asy_html_a715da54380769e1da07ac91a2e7a44e0"><div class="ttname"><a href="plain__bounds_8asy.html#a715da54380769e1da07ac91a2e7a44e0">p</a></div><div class="ttdeci">pen p</div><div class="ttdef"><b>Definition:</b> <a href="plain__bounds_8asy_source.html#l00112">plain_bounds.asy:112</a></div></div>
+<div class="ttc" id="aplain__markers_8asy_html_a9e6cefa39a2af3b45b0a4511ac4d141e"><div class="ttname"><a href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a></div><div class="ttdeci">frame f</div><div class="ttdef"><b>Definition:</b> <a href="plain__markers_8asy_source.html#l00104">plain_markers.asy:104</a></div></div>
 <div class="ttc" id="asmoothcontour3_8asy_html_abce9f5dc9c83f2639b72024fdee5d388"><div class="ttname"><a href="smoothcontour3_8asy.html#abce9f5dc9c83f2639b72024fdee5d388">end</a></div><div class="ttdeci">int end</div><div class="ttdef"><b>Definition:</b> <a href="smoothcontour3_8asy_source.html#l00452">smoothcontour3.asy:452</a></div></div>
 <div class="ttc" id="astats_8asy_html_a072832901f0528254cd311943767d3ae"><div class="ttname"><a href="stats_8asy.html#a072832901f0528254cd311943767d3ae">r</a></div><div class="ttdeci">real r</div><div class="ttdef"><b>Definition:</b> <a href="stats_8asy_source.html#l00273">stats.asy:273</a></div></div>
 <div class="ttc" id="astructsym_1_1symbol_html"><div class="ttname"><a href="structsym_1_1symbol.html">sym::symbol</a></div><div class="ttdef"><b>Definition:</b> <a href="symbol_8h_source.html#l00052">symbol.h:52</a></div></div>

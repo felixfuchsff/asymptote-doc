@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['quadpatches_8909',['quadpatches',['../smoothcontour3_8asy.html#a94349a95d795238981b37aa85c2e5d7d',1,'smoothcontour3.asy']]],
-  ['quadrant_8910',['quadrant',['../math_8asy.html#a7e7c601e608e53180c3d4451af0d5d98',1,'math.asy']]],
-  ['quadratic_8911',['quadratic',['../namespacecamp.html#a2d85d2323a05abc27109a5cc536da378',1,'camp']]],
-  ['quadraticroots_8912',['quadraticroots',['../classcamp_1_1quadraticroots.html#aec0ac06308346c3ab9818e33261a5865',1,'camp::quadraticroots']]],
-  ['quadraticroots_8913',['Quadraticroots',['../classcamp_1_1Quadraticroots.html#a17b61fd9e8d95fccea01eaab9a83ea3d',1,'camp::Quadraticroots']]],
-  ['qualifiedaccess_8914',['qualifiedAccess',['../classtrans_1_1qualifiedAccess.html#a9720ce4db4d43e3f4cf48af49f2fa9de',1,'trans::qualifiedAccess']]],
-  ['qualifiedname_8915',['qualifiedName',['../classabsyntax_1_1qualifiedName.html#ac808c064c739bbfd547d0dfb299a1f33',1,'absyntax::qualifiedName']]],
-  ['qualifier_8916',['qualifier',['../structabsyntax_1_1fromdec_1_1qualifier.html#a2c8d2c720169d7050dde72535266b64a',1,'absyntax::fromdec::qualifier']]],
-  ['qualifytyentry_8917',['qualifyTyEntry',['../namespacetrans.html#a2b3250234379aceb518c0dc7f6f1fde4',1,'trans']]],
-  ['qualifyvarentry_8918',['qualifyVarEntry',['../namespacetrans.html#aa8b0d115e45703974a552e97aad7bf00',1,'trans']]],
-  ['quantize_8919',['quantize',['../palette_8asy.html#a46060f7031b6b73157e2d661f977a7de',1,'palette.asy']]],
-  ['quarticroots_8920',['quarticroots',['../math_8asy.html#a966473f59f7d98e63a4c3c0dd168689b',1,'math.asy']]],
-  ['queryregistry_8921',['queryRegistry',['../namespacesettings.html#ace19acae466ba810c027bb84c269383b',1,'settings']]],
-  ['quoteexp_8922',['quoteExp',['../classabsyntax_1_1quoteExp.html#a80d46cb8c62e20efc5cf69f2f5b125f5',1,'absyntax::quoteExp']]]
+  ['quadpatches_8923',['quadpatches',['../smoothcontour3_8asy.html#a94349a95d795238981b37aa85c2e5d7d',1,'smoothcontour3.asy']]],
+  ['quadrant_8924',['quadrant',['../math_8asy.html#a7e7c601e608e53180c3d4451af0d5d98',1,'math.asy']]],
+  ['quadratic_8925',['quadratic',['../namespacecamp.html#a2d85d2323a05abc27109a5cc536da378',1,'camp']]],
+  ['quadraticroots_8926',['quadraticroots',['../classcamp_1_1quadraticroots.html#aec0ac06308346c3ab9818e33261a5865',1,'camp::quadraticroots']]],
+  ['quadraticroots_8927',['Quadraticroots',['../classcamp_1_1Quadraticroots.html#a17b61fd9e8d95fccea01eaab9a83ea3d',1,'camp::Quadraticroots']]],
+  ['qualifiedaccess_8928',['qualifiedAccess',['../classtrans_1_1qualifiedAccess.html#a9720ce4db4d43e3f4cf48af49f2fa9de',1,'trans::qualifiedAccess']]],
+  ['qualifiedname_8929',['qualifiedName',['../classabsyntax_1_1qualifiedName.html#ac808c064c739bbfd547d0dfb299a1f33',1,'absyntax::qualifiedName']]],
+  ['qualifier_8930',['qualifier',['../structabsyntax_1_1fromdec_1_1qualifier.html#a2c8d2c720169d7050dde72535266b64a',1,'absyntax::fromdec::qualifier']]],
+  ['qualifytyentry_8931',['qualifyTyEntry',['../namespacetrans.html#a2b3250234379aceb518c0dc7f6f1fde4',1,'trans']]],
+  ['qualifyvarentry_8932',['qualifyVarEntry',['../namespacetrans.html#aa8b0d115e45703974a552e97aad7bf00',1,'trans']]],
+  ['quantize_8933',['quantize',['../palette_8asy.html#a46060f7031b6b73157e2d661f977a7de',1,'palette.asy']]],
+  ['quarticroots_8934',['quarticroots',['../math_8asy.html#a966473f59f7d98e63a4c3c0dd168689b',1,'math.asy']]],
+  ['queryregistry_8935',['queryRegistry',['../namespacesettings.html#ace19acae466ba810c027bb84c269383b',1,'settings']]],
+  ['quoteexp_8936',['quoteExp',['../classabsyntax_1_1quoteExp.html#a80d46cb8c62e20efc5cf69f2f5b125f5',1,'absyntax::quoteExp']]]
 ];

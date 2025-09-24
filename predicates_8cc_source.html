@@ -744,7 +744,7 @@ $(function() {
 <div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160; </div>
 <div class="line"><a name="l00666"></a><span class="lineno"><a class="line" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">  666</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="predicates_8cc.html#aefffa32b6f9a2af99908e500fbb0bba5">fast_expansion_sum_zeroelim</a>(<span class="keywordtype">int</span> elen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *e,</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                       <span class="keywordtype">int</span> flen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                       <span class="keywordtype">int</span> flen, <span class="keyword">const</span> <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>, <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> *<a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>)</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;     <span class="comment">/* h cannot be e or f. */</span></div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;{</div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> Q;</div>
@@ -756,14 +756,14 @@ $(function() {
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;  <a class="code" href="predicates_8cc.html#a4b654506f18b8bfd61ad2a29a7e38c25">REAL</a> enow, fnow;</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;  enow = e[0];</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;  fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[0];</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;  fnow = <a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[0];</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;  eindex = findex = 0;</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;  <span class="keywordflow">if</span> ((fnow &gt; enow) == (fnow &gt; -enow)) {</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    Q = enow;</div>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    enow = e[++eindex];</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    Q = fnow;</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    fnow = <a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;  }</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;  hindex = 0;</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;  <span class="keywordflow">if</span> ((eindex &lt; elen) &amp;&amp; (findex &lt; flen)) {</div>
@@ -772,7 +772,7 @@ $(function() {
 <div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;      enow = e[++eindex];</div>
 <div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;      <a class="code" href="predicates_8cc.html#ae85afbfee038480d9baf7796514cb121">Fast_Two_Sum</a>(fnow, Q, Qnew, hh);</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;      fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;      fnow = <a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    }</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    Q = Qnew;</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="keywordflow">if</span> (hh != 0.0) {</div>
@@ -784,7 +784,7 @@ $(function() {
 <div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        enow = e[++eindex];</div>
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, fnow, Qnew, hh);</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        fnow = <a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;      }</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;      Q = Qnew;</div>
 <div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;      <span class="keywordflow">if</span> (hh != 0.0) {</div>
@@ -802,7 +802,7 @@ $(function() {
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  }</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  <span class="keywordflow">while</span> (findex &lt; flen) {</div>
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <a class="code" href="predicates_8cc.html#aa559790796899b51e5f0afcb2dfb8ed7">Two_Sum</a>(Q, fnow, Qnew, hh);</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    fnow = <a class="code" href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    fnow = <a class="code" href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a>[++findex];</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    Q = Qnew;</div>
 <div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="keywordflow">if</span> (hh != 0.0) {</div>
 <div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;      <a class="code" href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a>[hindex++] = hh;</div>
@@ -2867,7 +2867,7 @@ $(function() {
 <div class="ttc" id="anamespacecamp_html_a3177f0c0c8dcbdc2a5415f4a10590f02"><div class="ttname"><a href="namespacecamp.html#a3177f0c0c8dcbdc2a5415f4a10590f02">camp::b</a></div><div class="ttdeci">static pair b</div><div class="ttdef"><b>Definition:</b> <a href="path_8cc_source.html#l00582">path.cc:582</a></div></div>
 <div class="ttc" id="anamespacesym_html_a8b750f403d50a80e1a087b5ff6cd1bf5"><div class="ttname"><a href="namespacesym.html#a8b750f403d50a80e1a087b5ff6cd1bf5">sym::D</a></div><div class="ttdeci">const uint D</div><div class="ttdef"><b>Definition:</b> <a href="symbol_8cc_source.html#l00089">symbol.cc:89</a></div></div>
 <div class="ttc" id="anamespacetrans_html_aa24897a74c021968a76c29dee7b40282"><div class="ttname"><a href="namespacetrans.html#aa24897a74c021968a76c29dee7b40282">trans::negate</a></div><div class="ttdeci">T negate(T x)</div><div class="ttdef"><b>Definition:</b> <a href="builtin_8cc_source.html#l00523">builtin.cc:523</a></div></div>
-<div class="ttc" id="aplain__Label_8asy_html_a9e6cefa39a2af3b45b0a4511ac4d141e"><div class="ttname"><a href="plain__Label_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a></div><div class="ttdeci">frame f</div><div class="ttdef"><b>Definition:</b> <a href="plain__Label_8asy_source.html#l00532">plain_Label.asy:532</a></div></div>
+<div class="ttc" id="aplain__markers_8asy_html_a9e6cefa39a2af3b45b0a4511ac4d141e"><div class="ttname"><a href="plain__markers_8asy.html#a9e6cefa39a2af3b45b0a4511ac4d141e">f</a></div><div class="ttdeci">frame f</div><div class="ttdef"><b>Definition:</b> <a href="plain__markers_8asy_source.html#l00104">plain_markers.asy:104</a></div></div>
 <div class="ttc" id="aplain__pens_8asy_html_aea48bde1a661e4c9d8cb7fd80af6a4d9"><div class="ttname"><a href="plain__pens_8asy.html#aea48bde1a661e4c9d8cb7fd80af6a4d9">h</a></div><div class="ttdeci">real h</div><div class="ttdef"><b>Definition:</b> <a href="plain__pens_8asy_source.html#l00303">plain_pens.asy:303</a></div></div>
 <div class="ttc" id="apredicates_8cc_html_a0970b35d7363dfcbb19c763718c1355c"><div class="ttname"><a href="predicates_8cc.html#a0970b35d7363dfcbb19c763718c1355c">insphere</a></div><div class="ttdeci">REAL insphere(const REAL *pa, const REAL *pb, const REAL *pc, const REAL *pd, const REAL *pe)</div><div class="ttdef"><b>Definition:</b> <a href="predicates_8cc_source.html#l02678">predicates.cc:2678</a></div></div>
 <div class="ttc" id="apredicates_8cc_html_a0cce77b99432ef29e32ed7481e470f10"><div class="ttname"><a href="predicates_8cc.html#a0cce77b99432ef29e32ed7481e470f10">Square</a></div><div class="ttdeci">#define Square(a, x, y)</div><div class="ttdef"><b>Definition:</b> <a href="predicates_8cc_source.html#l00250">predicates.cc:250</a></div></div>
