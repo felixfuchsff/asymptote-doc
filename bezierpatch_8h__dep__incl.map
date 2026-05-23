@@ -1,0 +1,15 @@
+<map id="asymptote/bezierpatch.h" name="asymptote/bezierpatch.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="223,5,407,31"/>
+<area shape="rect" id="Node000002" href="$beziercurve_8cc.html" title=" " alt="" coords="5,79,196,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,37,136,81,135,76,267,32"/>
+<area shape="rect" id="Node000003" href="$bezierpatch_8cc.html" title=" " alt="" coords="220,79,411,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="318,44,318,79,313,79,313,44"/>
+<area shape="rect" id="Node000004" href="$drawsurface_8h.html" title=" " alt="" coords="435,79,623,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="363,32,495,76,493,81,362,37"/>
+<area shape="rect" id="Node000005" href="$drawpath3_8cc.html" title=" " alt="" coords="224,152,407,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="482,111,351,154,349,149,481,106"/>
+<area shape="rect" id="Node000006" href="$drawsurface_8cc.html" title=" " alt="" coords="431,152,626,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="531,118,531,152,526,152,526,118"/>
+<area shape="rect" id="Node000007" href="$picture_8cc.html" title=" " alt="" coords="651,152,809,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="575,106,698,149,696,154,573,111"/>
+</map>

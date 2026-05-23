@@ -1,0 +1,16 @@
+<map id="xdr::xstream" name="xdr::xstream">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,79,284,104"/>
+<area shape="rect" id="Node000003" href="$classxdr_1_1ixstream.html" title=" " alt="" coords="109,152,218,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,116,176,154,172,150,209,112"/>
+<area shape="rect" id="Node000006" href="$classxdr_1_1oxstream.html" title=" " alt="" coords="243,152,356,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="254,112,290,150,286,154,250,116"/>
+<area shape="rect" id="Node000002" href="$classxdr_1_1xios.html" title=" " alt="" coords="192,5,271,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,44,234,79,229,79,229,44"/>
+<area shape="rect" id="Node000004" href="$classxdr_1_1ioxstream.html" title=" " alt="" coords="173,225,290,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,185,222,223,218,227,182,189"/>
+<area shape="rect" id="Node000005" href="$classxdr_1_1memixstream.html" title=" " alt="" coords="5,225,148,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="141,188,93,227,89,223,137,184"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="281,189,244,227,240,223,277,185"/>
+<area shape="rect" id="Node000007" href="$classxdr_1_1memoxstream.html" title=" " alt="" coords="314,225,461,251"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="326,184,375,223,371,227,322,188"/>
+</map>

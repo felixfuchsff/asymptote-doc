@@ -1,0 +1,25 @@
+<map id="camp::drawShade" name="camp::drawShade">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1161,80,1300,105"/>
+<area shape="rect" id="Node000008" href="$classcamp_1_1drawAxialShade.html" title=" " alt="" coords="1359,5,1530,31"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1270,72,1347,41,1389,28,1391,33,1349,46,1272,77"/>
+<area shape="rect" id="Node000010" href="$classcamp_1_1drawGouraudShade.html" title=" " alt="" coords="1348,55,1541,80"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1313,80,1347,76,1348,81,1314,86"/>
+<area shape="rect" id="Node000011" href="$classcamp_1_1drawLatticeShade.html" title=" " alt="" coords="1353,104,1536,129"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1314,99,1353,104,1353,109,1313,105"/>
+<area shape="rect" id="Node000012" href="$classcamp_1_1drawTensorShade.html" title=" " alt="" coords="1355,153,1535,179"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1272,109,1349,139,1387,151,1386,156,1347,145,1270,114"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawFill.html" title=" " alt="" coords="996,80,1113,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1127,90,1161,90,1161,95,1127,95"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1drawSuperPathPenBase.html" title=" " alt="" coords="729,80,948,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="962,90,996,90,996,95,962,95"/>
+<area shape="rect" id="Node000004" href="$classcamp_1_1drawPathPenBase.html" title=" " alt="" coords="499,80,681,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="695,90,729,90,729,95,695,95"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1drawPathBase.html" title=" " alt="" coords="292,80,451,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="465,90,498,90,498,95,465,95"/>
+<area shape="rect" id="Node000006" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="92,80,244,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="257,90,292,90,292,95,257,95"/>
+<area shape="rect" id="Node000007" href="$classgc.html" title=" " alt="" coords="5,80,44,105"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="58,90,92,90,92,95,58,95"/>
+<area shape="rect" id="Node000009" href="$classcamp_1_1drawRadialShade.html" title=" " alt="" coords="1589,5,1768,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1544,15,1589,15,1589,21,1544,21"/>
+</map>

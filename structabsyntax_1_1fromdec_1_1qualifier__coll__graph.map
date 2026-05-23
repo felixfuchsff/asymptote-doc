@@ -1,0 +1,24 @@
+<map id="absyntax::fromdec::qualifier" name="absyntax::fromdec::qualifier">
+<area shape="rect" id="Node000001" title=" " alt="" coords="209,359,361,399"/>
+<area shape="rect" id="Node000002" href="$classtypes_1_1record.html" title=" " alt="" coords="163,271,270,296"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,305,273,357,269,360,231,308"/>
+<area shape="rect" id="Node000003" href="$classtypes_1_1ty.html" title=" " alt="" coords="5,168,84,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,198,199,268,196,273,75,202"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="336,80,375,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,106,85,171,84,166,322,100"/>
+<area shape="rect" id="Node000011" href="$classtrans_1_1entry.html" title=" " alt="" coords="331,168,428,193"/>
+<area shape="poly" id="edge11_Node000011_Node000004" title=" " alt="" coords="365,118,379,167,373,168,360,119"/>
+<area shape="rect" id="Node000005" href="$classtrans_1_1protoenv.html" title=" " alt="" coords="452,168,573,193"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="476,202,356,249,269,273,268,268,354,244,474,197"/>
+<area shape="rect" id="Node000006" href="$classtrans_1_1tenv.html" title=" " alt="" coords="531,80,623,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="562,118,524,169,519,166,558,115"/>
+<area shape="rect" id="Node000007" href="$classsym_1_1table.html" title=" " alt="" coords="487,5,666,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="579,45,579,80,574,80,574,45"/>
+<area shape="rect" id="Node000008" href="$classtrans_1_1venv.html" title=" " alt="" coords="412,80,507,105"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="470,117,483,143,502,166,498,169,478,145,466,120"/>
+<area shape="rect" id="Node000009" href="$classtrans_1_1AutoUnravelRegistry.html" title=" " alt="" coords="108,168,307,193"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="212,207,218,270,213,271,207,208"/>
+<area shape="rect" id="Node000010" href="$classtrans_1_1varEntry.html" title=" " alt="" coords="303,271,421,296"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="346,308,302,360,298,357,342,305"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="378,207,367,271,361,270,372,206"/>
+</map>

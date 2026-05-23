@@ -1,0 +1,11 @@
+<map id="camp::endSpec" name="camp::endSpec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,152,197,177"/>
+<area shape="rect" id="Node000004" href="$classcamp_1_1curlSpec.html" title=" " alt="" coords="5,225,127,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="117,189,79,227,76,223,113,185"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1dirSpec.html" title=" " alt="" coords="151,225,266,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="160,185,199,223,195,227,157,189"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1spec.html" title=" " alt="" coords="89,79,185,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,118,139,152,134,152,134,118"/>
+<area shape="rect" id="Node000003" href="$classgc.html" title=" " alt="" coords="117,5,156,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,44,139,79,134,79,134,44"/>
+</map>

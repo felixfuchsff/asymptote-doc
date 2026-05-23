@@ -1,0 +1,16 @@
+<map id="trans::protoenv::Added" name="trans::protoenv::Added">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,355,175,380"/>
+<area shape="rect" id="Node000002" href="$classgc.html" title=" " alt="" coords="167,5,205,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,27,126,36,99,48,79,67,73,78,71,92,71,280,77,321,88,354,83,355,72,322,66,281,66,91,68,77,75,64,96,44,124,31,153,22"/>
+<area shape="rect" id="Node000004" href="$classtrans_1_1entry.html" title=" " alt="" coords="137,80,235,105"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="189,45,189,80,183,80,183,45"/>
+<area shape="rect" id="Node000005" href="$classtypes_1_1ty.html" title=" " alt="" coords="272,129,351,155"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="210,39,301,127,298,131,206,42"/>
+<area shape="rect" id="Node000003" href="$classtrans_1_1tyEntry.html" title=" " alt="" coords="121,267,232,292"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,303,104,356,100,352,154,300"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,118,160,147,149,179,148,203,153,227,171,265,167,268,148,229,142,204,143,178,155,145,169,116"/>
+<area shape="rect" id="Node000006" href="$classtrans_1_1varEntry.html" title=" " alt="" coords="157,179,276,204"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="196,118,216,178,210,179,191,119"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="308,169,300,188,289,206,270,226,247,244,204,269,201,264,244,239,266,222,285,202,296,185,303,167"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="208,218,185,267,180,265,203,215"/>
+</map>

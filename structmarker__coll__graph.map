@@ -1,0 +1,17 @@
+<map id="marker" name="marker">
+<area shape="rect" id="Node000001" title=" " alt="" coords="189,431,257,456"/>
+<area shape="rect" id="Node000002" href="$structpicture.html" title=" " alt="" coords="189,343,256,368"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,382,225,430,220,430,220,382"/>
+<area shape="rect" id="Node000003" href="$structpicture_1_1node3.html" title=" " alt="" coords="93,240,208,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,275,217,341,212,344,165,278"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,123,125,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,158,144,238,140,242,80,161"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="149,123,208,148"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="175,162,156,241,151,239,170,160"/>
+<area shape="rect" id="Node000006" href="$structpicture_1_1bounds3.html" title=" " alt="" coords="232,240,363,265"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="283,278,233,344,229,341,279,275"/>
+<area shape="rect" id="Node000007" href="$structcoords3.html" title=" " alt="" coords="261,123,334,148"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="300,161,300,240,295,240,295,161"/>
+<area shape="rect" id="Node000008" href="$structcoord.html" title=" " alt="" coords="268,5,327,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="300,44,300,123,295,123,295,44"/>
+</map>

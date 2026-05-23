@@ -1,0 +1,21 @@
+<map id="AsymptoteLsp::AddDeclContexts" name="AsymptoteLsp::AddDeclContexts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="996,65,1231,91"/>
+<area shape="rect" id="Node000002" href="$structAsymptoteLsp_1_1SymbolContext.html" title=" " alt="" coords="724,115,947,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="920,110,1040,88,1041,93,921,115"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="809,100,817,91,835,88,851,90,860,97,863,106,858,116,854,113,858,106,856,100,849,95,835,93,820,96,813,103"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="386,71,557,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="571,93,730,112,729,117,570,98"/>
+<area shape="rect" id="Node000004" href="$structAsymptoteLsp_1_1SymbolMaps.html" title=" " alt="" coords="368,169,575,195"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="587,165,700,149,766,137,767,143,700,154,588,170"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="45,5,213,60"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="227,32,547,42,947,61,996,64,996,70,947,66,547,47,227,37"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="227,58,254,69,303,90,346,121,358,139,362,147,370,154,395,167,392,172,366,159,358,150,353,142,342,125,300,95,252,74,225,63"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,163,253,217"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="267,184,367,182,368,187,267,189"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="20,241,239,296"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="250,235,419,192,421,197,252,241"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="18,84,241,139"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="255,134,409,167,408,172,254,140"/>
+<area shape="rect" id="Node000009" href="$structAsymptoteLsp_1_1ExternalRefs.html" title=" " alt="" coords="368,120,575,145"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="589,128,724,126,724,132,589,134"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="types::record" name="types::record">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,271,222,296"/>
+<area shape="rect" id="Node000002" href="$classtypes_1_1ty.html" title=" " alt="" coords="5,168,84,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,200,156,269,153,273,68,204"/>
+<area shape="rect" id="Node000003" href="$classgc.html" title=" " alt="" coords="25,80,64,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="47,119,47,167,42,167,42,119"/>
+<area shape="rect" id="Node000004" href="$classtrans_1_1protoenv.html" title=" " alt="" coords="108,168,229,193"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,207,171,271,166,271,166,207"/>
+<area shape="rect" id="Node000005" href="$classtrans_1_1tenv.html" title=" " alt="" coords="105,80,197,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="159,118,169,167,164,168,154,119"/>
+<area shape="rect" id="Node000006" href="$classsym_1_1table.html" title=" " alt="" coords="62,5,241,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="154,45,154,80,149,80,149,45"/>
+<area shape="rect" id="Node000007" href="$classtrans_1_1venv.html" title=" " alt="" coords="221,80,316,105"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="246,116,184,169,181,165,243,112"/>
+<area shape="rect" id="Node000008" href="$classtrans_1_1AutoUnravelRegistry.html" title=" " alt="" coords="253,168,452,193"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="326,203,249,249,198,273,195,268,246,244,323,198"/>
+</map>

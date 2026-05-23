@@ -1,0 +1,16 @@
+<map id="absyntax::namedTy" name="absyntax::namedTy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="40,215,189,240"/>
+<area shape="rect" id="Node000002" href="$classgc.html" title=" " alt="" coords="46,5,84,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,43,29,67,15,94,8,123,9,136,15,151,29,171,48,188,88,212,85,217,45,192,25,175,11,153,4,137,3,123,10,92,24,64,42,40"/>
+<area shape="rect" id="Node000005" href="$classtypes_1_1ty.html" title=" " alt="" coords="26,110,104,135"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="68,45,68,110,62,110,62,45"/>
+<area shape="rect" id="Node000006" href="$classposition.html" title=" " alt="" coords="129,110,204,135"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="88,39,157,108,153,112,85,43"/>
+<area shape="rect" id="Node000003" href="$structsym_1_1symbol.html" title=" " alt="" coords="228,110,334,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,145,174,193,135,217,132,212,172,188,250,140"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="349,111,357,115,361,123,353,133,335,136,334,131,350,128,356,122,354,119,347,116"/>
+<area shape="rect" id="Node000004" href="$structsym_1_1GCInit.html" title=" " alt="" coords="232,5,330,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="284,45,284,110,278,110,278,45"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="79,147,111,213,106,216,74,149"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="156,149,123,216,118,213,152,147"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="asymptote/picture.h" name="asymptote/picture.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="205,5,359,31"/>
+<area shape="rect" id="Node000002" href="$picture_8cc.html" title=" " alt="" coords="5,79,164,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,38,118,81,116,76,237,33"/>
+<area shape="rect" id="Node000003" href="$renderBase_8cc.html" title=" " alt="" coords="188,79,376,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,44,285,79,279,79,279,44"/>
+<area shape="rect" id="Node000004" href="$vkrender_8cc.html" title=" " alt="" coords="401,79,571,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,33,454,76,452,81,327,38"/>
+</map>

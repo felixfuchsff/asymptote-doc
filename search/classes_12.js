@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['rational_0',['rational',['../structrational.html',1,'']]],
+  ['rcfft1d_1',['rcfft1d',['../classfftwpp_1_1rcfft1d.html',1,'fftwpp']]],
+  ['rcfft2d_2',['rcfft2d',['../classfftwpp_1_1rcfft2d.html',1,'fftwpp']]],
+  ['rcfft3d_3',['rcfft3d',['../classfftwpp_1_1rcfft3d.html',1,'fftwpp']]],
+  ['realexp_4',['realExp',['../classabsyntax_1_1realExp.html',1,'absyntax']]],
+  ['realschur_5',['realschur',['../structrealschur.html',1,'']]],
+  ['realsetting_6',['realSetting',['../structsettings_1_1realSetting.html',1,'settings']]],
+  ['receivetypedefdec_7',['receiveTypedefDec',['../classabsyntax_1_1receiveTypedefDec.html',1,'absyntax']]],
+  ['record_8',['record',['../classtypes_1_1record.html',1,'types']]],
+  ['recorddec_9',['recorddec',['../classabsyntax_1_1recorddec.html',1,'absyntax']]],
+  ['ref_10',['ref',['../structcamp_1_1ref.html',1,'camp']]],
+  ['refaccess_11',['refAccess',['../classtrans_1_1refAccess.html',1,'trans']]],
+  ['refsetting_12',['refSetting',['../structsettings_1_1refSetting.html',1,'settings']]],
+  ['refsetting_3c_20bool_20_3e_13',['refSetting&lt; bool &gt;',['../structsettings_1_1refSetting.html',1,'settings']]],
+  ['refsetting_3c_20int_20_3e_14',['refSetting&lt; Int &gt;',['../structsettings_1_1refSetting.html',1,'settings']]],
+  ['resolvepen_5ft_15',['resolvepen_t',['../structcamp_1_1resolvepen__t.html',1,'camp']]],
+  ['restarg_16',['restArg',['../structtrans_1_1restArg.html',1,'trans']]],
+  ['returnstm_17',['returnStm',['../classabsyntax_1_1returnStm.html',1,'absyntax']]],
+  ['rgbacolour_18',['RGBAColour',['../structprc_1_1RGBAColour.html',1,'prc']]],
+  ['rgbasymcolorinfo_19',['RGBASymColorInfo',['../structAsymptoteLsp_1_1RGBASymColorInfo.html',1,'AsymptoteLsp']]],
+  ['rgbsymcolorinfo_20',['RGBSymColorInfo',['../structAsymptoteLsp_1_1RGBSymColorInfo.html',1,'AsymptoteLsp']]],
+  ['rmf_21',['rmf',['../structrmf.html',1,'']]],
+  ['row_22',['row',['../structproblem_1_1row.html',1,'problem']]],
+  ['rundata_23',['RunData',['../classruntime_1_1RunData.html',1,'runtime']]],
+  ['runnable_24',['runnable',['../classabsyntax_1_1runnable.html',1,'absyntax']]]
+];

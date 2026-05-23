@@ -1,0 +1,15 @@
+<map id="absyntax::fromdec" name="absyntax::fromdec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,299,271,324"/>
+<area shape="rect" id="Node000006" href="$classabsyntax_1_1fromaccessdec.html" title=" " alt="" coords="5,372,193,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="174,334,117,374,114,370,171,330"/>
+<area shape="rect" id="Node000007" href="$classabsyntax_1_1unraveldec.html" title=" " alt="" coords="218,372,381,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="228,330,285,370,281,374,225,334"/>
+<area shape="rect" id="Node000002" href="$classabsyntax_1_1dec.html" title=" " alt="" coords="143,225,256,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,264,202,299,197,299,197,264"/>
+<area shape="rect" id="Node000003" href="$classabsyntax_1_1runnable.html" title=" " alt="" coords="126,152,273,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,191,202,225,197,225,197,191"/>
+<area shape="rect" id="Node000004" href="$classabsyntax_1_1absyn.html" title=" " alt="" coords="135,79,264,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,118,202,152,197,152,197,118"/>
+<area shape="rect" id="Node000005" href="$classgc.html" title=" " alt="" coords="180,5,219,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="202,44,202,79,197,79,197,44"/>
+</map>

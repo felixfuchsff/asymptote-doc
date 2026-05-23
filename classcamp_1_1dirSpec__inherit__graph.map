@@ -1,0 +1,9 @@
+<map id="camp::dirSpec" name="camp::dirSpec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,225,123,251"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1endSpec.html" title=" " alt="" coords="5,152,127,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,191,69,225,63,225,63,191"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1spec.html" title=" " alt="" coords="18,79,114,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,118,69,152,63,152,63,118"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="47,5,85,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="69,44,69,79,63,79,63,44"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="asymptote/vk.h" name="asymptote/vk.h">
+<area shape="rect" id="Node000001" title="Common include header for vulkan." alt="" coords="61,5,185,31"/>
+<area shape="rect" id="Node000002" href="$vkdispatchstorage_8cc.html" title="Storage for vulkan dynamic loader, as required by https://github.com/KhronosGroup/Vulkan&#45;Hpp#extensio..." alt="" coords="5,79,240,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,44,125,79,120,79,120,44"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="settings::argumentSetting" name="settings::argumentSetting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="644,223,835,249"/>
+<area shape="rect" id="Node000006" href="$structsettings_1_1dataSetting.html" title=" " alt="" coords="901,5,1059,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="752,210,802,134,839,92,881,55,902,43,905,48,884,60,842,95,806,137,756,213"/>
+<area shape="rect" id="Node000008" href="$structsettings_1_1dataSetting.html" title=" " alt="" coords="901,69,1059,109"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="761,212,814,165,881,119,908,107,910,112,884,124,817,170,765,216"/>
+<area shape="rect" id="Node000010" href="$structsettings_1_1dataSetting.html" title=" " alt="" coords="901,133,1059,173"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="788,216,882,183,917,171,919,176,884,188,789,221"/>
+<area shape="rect" id="Node000012" href="$structsettings_1_1alignSetting.html" title=" " alt="" coords="900,198,1060,223"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="848,222,900,216,900,222,848,227"/>
+<area shape="rect" id="Node000013" href="$structsettings_1_1dataSetting.html" title=" " alt="" coords="883,247,1077,273"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="848,244,883,248,882,253,848,249"/>
+<area shape="rect" id="Node000014" href="$structsettings_1_1engineSetting.html" title=" " alt="" coords="894,297,1066,322"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="788,251,883,283,925,294,923,299,882,288,787,256"/>
+<area shape="rect" id="Node000015" href="$structsettings_1_1stringSetting.html" title=" " alt="" coords="897,346,1063,371"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="767,256,819,295,884,332,915,343,913,348,882,337,816,299,764,260"/>
+<area shape="rect" id="Node000017" href="$structsettings_1_1userSetting.html" title=" " alt="" coords="902,395,1058,421"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="759,259,810,321,845,354,884,382,909,393,907,398,881,386,842,358,806,325,755,262"/>
+<area shape="rect" id="Node000002" href="$structsettings_1_1itemSetting.html" title=" " alt="" coords="437,223,596,249"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="610,233,644,233,644,239,610,239"/>
+<area shape="rect" id="Node000003" href="$structsettings_1_1setting.html" title=" " alt="" coords="263,223,389,249"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,233,437,233,437,239,403,239"/>
+<area shape="rect" id="Node000004" href="$structsettings_1_1option.html" title=" " alt="" coords="92,223,215,249"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="229,233,262,233,262,239,229,239"/>
+<area shape="rect" id="Node000005" href="$classgc.html" title=" " alt="" coords="5,223,44,249"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="58,233,92,233,92,239,58,239"/>
+<area shape="rect" id="Node000007" href="$structsettings_1_1IntSetting.html" title=" " alt="" coords="1129,13,1275,38"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1073,23,1129,23,1129,28,1073,28"/>
+<area shape="rect" id="Node000009" href="$structsettings_1_1pairSetting.html" title=" " alt="" coords="1125,77,1279,102"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1073,87,1125,87,1125,92,1073,92"/>
+<area shape="rect" id="Node000011" href="$structsettings_1_1realSetting.html" title=" " alt="" coords="1125,141,1279,166"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1073,151,1125,151,1125,156,1073,156"/>
+<area shape="rect" id="Node000016" href="$structsettings_1_1envSetting.html" title=" " alt="" coords="1126,346,1278,371"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="1077,356,1126,356,1126,361,1077,361"/>
+</map>

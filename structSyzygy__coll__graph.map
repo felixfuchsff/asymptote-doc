@@ -1,0 +1,14 @@
+<map id="Syzygy" name="Syzygy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,391,163,416"/>
+<area shape="rect" id="Node000002" href="$structBraid.html" title=" " alt="" coords="100,303,156,328"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,342,131,390,125,390,125,342"/>
+<area shape="rect" id="Node000003" href="$structBraid_1_1Placement.html" title=" " alt="" coords="111,213,244,238"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,251,137,304,132,301,162,248"/>
+<area shape="rect" id="Node000004" href="$structComponent.html" title=" " alt="" coords="90,123,187,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="152,160,175,211,170,213,147,162"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,64,31"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="30,45,21,87,16,134,16,316,18,330,23,342,42,363,68,379,94,390,92,395,65,383,39,367,19,345,13,332,11,317,11,134,15,86,25,44"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="56,39,130,121,126,124,52,43"/>
+<area shape="rect" id="Node000006" href="$structSyzygy_1_1Move.html" title=" " alt="" coords="180,303,292,328"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="213,339,176,369,145,392,142,388,173,365,210,335"/>
+</map>

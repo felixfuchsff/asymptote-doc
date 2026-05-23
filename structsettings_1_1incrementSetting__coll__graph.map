@@ -1,0 +1,19 @@
+<map id="settings::incrementSetting" name="settings::incrementSetting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="171,403,366,428"/>
+<area shape="rect" id="Node000002" href="$structsettings_1_1refSetting.html" title=" " alt="" coords="195,313,342,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,367,271,402,266,402,266,367"/>
+<area shape="rect" id="Node000003" href="$structsettings_1_1setting.html" title=" " alt="" coords="104,225,231,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,258,250,311,246,315,188,262"/>
+<area shape="rect" id="Node000004" href="$structsettings_1_1option.html" title=" " alt="" coords="109,137,231,163"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="172,177,170,225,165,225,167,176"/>
+<area shape="rect" id="Node000005" href="$classgc.html" title=" " alt="" coords="95,5,133,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="127,42,167,136,163,138,122,44"/>
+<area shape="rect" id="Node000007" href="$classtypes_1_1ty.html" title=" " alt="" coords="5,137,84,163"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="104,44,53,138,49,136,99,42"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="159,5,218,31"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="232,35,250,53,266,87,277,123,283,161,286,198,283,265,275,313,270,313,277,264,280,198,278,161,272,124,261,89,245,56,228,39"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="188,44,174,137,169,137,182,44"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="74,169,152,223,149,227,71,173"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="306,225,426,251"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="346,262,290,315,287,311,342,258"/>
+</map>

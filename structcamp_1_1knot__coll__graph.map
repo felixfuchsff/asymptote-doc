@@ -1,0 +1,12 @@
+<map id="camp::knot" name="camp::knot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="121,183,215,208"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1pair.html" title=" " alt="" coords="5,80,96,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,113,156,181,153,185,73,117"/>
+<area shape="rect" id="Node000003" href="$classgc.html" title=" " alt="" coords="89,5,127,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,43,62,81,58,78,88,40"/>
+<area shape="rect" id="Node000004" href="$classcamp_1_1spec.html" title=" " alt="" coords="120,80,216,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="129,40,160,78,156,81,125,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,119,171,183,165,183,165,119"/>
+<area shape="rect" id="Node000005" href="$structcamp_1_1tension.html" title=" " alt="" coords="240,80,355,105"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="273,116,184,185,181,181,270,112"/>
+</map>

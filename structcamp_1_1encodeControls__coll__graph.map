@@ -1,0 +1,13 @@
+<map id="camp::encodeControls" name="camp::encodeControls">
+<area shape="rect" id="Node000001" title=" " alt="" coords="143,211,309,236"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1knoteffect.html" title=" " alt="" coords="5,101,137,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,132,211,208,208,213,98,136"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1knotlist.html" title=" " alt="" coords="14,5,129,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,44,74,101,69,101,69,44"/>
+<area shape="rect" id="Node000004" href="$structcamp_1_1protopath.html" title=" " alt="" coords="161,101,291,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,140,229,210,223,210,223,140"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1cvector.html" title=" " alt="" coords="315,93,481,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="358,143,246,213,243,208,355,138"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,5,479,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="401,44,401,93,395,93,395,44"/>
+</map>

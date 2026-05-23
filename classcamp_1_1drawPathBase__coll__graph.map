@@ -1,0 +1,18 @@
+<map id="camp::drawPathBase" name="camp::drawPathBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="245,253,403,279"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="183,179,335,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,213,315,251,311,255,277,217"/>
+<area shape="rect" id="Node000003" href="$classgc.html" title=" " alt="" coords="217,5,255,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,44,260,178,255,179,237,45"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1pen.html" title=" " alt="" coords="5,80,96,105"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="205,34,81,82,79,77,203,29"/>
+<area shape="rect" id="Node000006" href="$classcamp_1_1triple.html" title=" " alt="" coords="121,80,221,105"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="218,43,183,81,179,78,214,40"/>
+<area shape="rect" id="Node000007" href="$classcamp_1_1path.html" title=" " alt="" coords="345,129,439,155"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="270,25,320,44,346,59,369,78,384,104,392,128,387,130,380,106,365,82,343,63,317,49,268,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="296,80,355,105"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="312,118,269,180,264,177,307,115"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="74,113,100,134,131,152,164,166,198,176,197,181,162,171,128,157,97,138,71,117"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="184,116,209,153,239,176,236,181,205,156,180,119"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="381,168,333,255,328,252,377,165"/>
+</map>

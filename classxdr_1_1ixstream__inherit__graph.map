@@ -1,0 +1,11 @@
+<map id="xdr::ixstream" name="xdr::ixstream">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,152,195,177"/>
+<area shape="rect" id="Node000004" href="$classxdr_1_1ioxstream.html" title=" " alt="" coords="5,225,123,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,189,78,227,75,223,116,185"/>
+<area shape="rect" id="Node000005" href="$classxdr_1_1memixstream.html" title=" " alt="" coords="146,225,289,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,185,206,223,203,227,161,189"/>
+<area shape="rect" id="Node000002" href="$classxdr_1_1xstream.html" title=" " alt="" coords="87,79,193,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,118,143,152,137,152,137,118"/>
+<area shape="rect" id="Node000003" href="$classxdr_1_1xios.html" title=" " alt="" coords="101,5,179,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,44,143,79,137,79,137,44"/>
+</map>

@@ -1,0 +1,36 @@
+<map id="camp::drawGouraudShade" name="camp::drawGouraudShade">
+<area shape="rect" id="Node000001" title=" " alt="" coords="38,672,231,697"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawShade.html" title=" " alt="" coords="171,597,309,623"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,633,153,674,150,670,210,628"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1drawFill.html" title=" " alt="" coords="201,513,319,539"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,553,245,598,240,596,251,551"/>
+<area shape="rect" id="Node000004" href="$classcamp_1_1drawSuperPathPenBase.html" title=" " alt="" coords="159,429,377,455"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="268,469,264,513,258,513,263,468"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1drawPathPenBase.html" title=" " alt="" coords="183,341,366,367"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,381,272,429,266,429,270,380"/>
+<area shape="rect" id="Node000006" href="$classcamp_1_1drawPathBase.html" title=" " alt="" coords="195,267,354,292"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="277,306,277,341,272,341,272,306"/>
+<area shape="rect" id="Node000007" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="199,179,351,204"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="277,218,277,266,272,266,272,218"/>
+<area shape="rect" id="Node000008" href="$classgc.html" title=" " alt="" coords="297,5,335,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="312,45,303,81,280,179,275,178,297,79,307,43"/>
+<area shape="rect" id="Node000010" href="$classcamp_1_1pen.html" title=" " alt="" coords="312,80,403,105"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="332,42,353,78,348,81,327,44"/>
+<area shape="rect" id="Node000011" href="$classcamp_1_1triple.html" title=" " alt="" coords="55,80,155,105"/>
+<area shape="poly" id="edge12_Node000011_Node000008" title=" " alt="" coords="285,33,140,82,138,77,283,28"/>
+<area shape="rect" id="Node000012" href="$classcamp_1_1path.html" title=" " alt="" coords="413,129,507,155"/>
+<area shape="poly" id="edge14_Node000012_Node000008" title=" " alt="" coords="349,32,383,52,416,78,439,103,455,127,451,130,435,107,413,82,380,57,346,37"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="179,80,237,105"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="215,118,220,136,229,153,241,166,255,176,252,181,237,170,224,156,215,138,209,120"/>
+<area shape="poly" id="edge15_Node000005_Node000010" title=" " alt="" coords="372,117,376,129,385,163,391,200,388,242,381,267,368,293,355,310,339,324,306,343,303,339,336,320,351,306,363,291,376,265,383,241,386,200,380,164,371,130,367,118"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="336,117,322,131,285,180,280,177,318,128,332,113"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="128,113,152,134,179,152,235,176,232,181,176,157,148,138,125,117"/>
+<area shape="poly" id="edge13_Node000006_Node000012" title=" " alt="" coords="435,165,292,269,289,264,432,161"/>
+<area shape="rect" id="Node000013" href="$classvm_1_1array.html" title=" " alt="" coords="73,341,159,367"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="120,381,121,441,121,611,125,644,133,671,128,673,120,645,116,611,116,441,115,381"/>
+<area shape="poly" id="edge16_Node000004_Node000013" title=" " alt="" coords="150,371,249,427,246,431,147,376"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="5,267,171,292"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="100,304,114,340,109,342,95,306"/>
+<area shape="rect" id="Node000015" href="$structcamp_1_1bbox.html" title=" " alt="" coords="391,341,489,367"/>
+<area shape="poly" id="edge18_Node000004_Node000015" title=" " alt="" coords="406,375,293,431,290,427,404,370"/>
+</map>

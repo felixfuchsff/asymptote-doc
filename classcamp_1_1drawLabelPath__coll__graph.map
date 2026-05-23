@@ -1,0 +1,36 @@
+<map id="camp::drawLabelPath" name="camp::drawLabelPath">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1069,236,1231,261"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawLabel.html" title=" " alt="" coords="642,284,775,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="789,285,1069,255,1069,260,789,291"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="372,112,524,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="538,136,574,148,607,165,640,193,668,226,703,282,699,285,663,229,636,197,604,170,572,153,537,141"/>
+<area shape="rect" id="Node000012" href="$classcamp_1_1drawPathBase.html" title=" " alt="" coords="629,103,788,128"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="538,119,629,116,629,121,538,124"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="5,112,44,137"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="58,122,348,121,372,121,372,126,348,126,58,127"/>
+<area shape="rect" id="Node000006" href="$classcamp_1_1pen.html" title=" " alt="" coords="98,160,189,185"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="58,135,112,158,110,162,56,140"/>
+<area shape="rect" id="Node000007" href="$classcamp_1_1triple.html" title=" " alt="" coords="93,48,193,73"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="50,101,67,90,107,71,109,76,69,95,53,106"/>
+<area shape="rect" id="Node000008" href="$classcamp_1_1transform.html" title=" " alt="" coords="217,309,348,335"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="47,146,95,195,155,239,219,278,263,307,260,311,216,283,152,243,92,199,44,150"/>
+<area shape="rect" id="Node000009" href="$classcamp_1_1pair.html" title=" " alt="" coords="237,491,328,516"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="32,151,51,240,69,293,96,343,135,391,180,432,225,465,261,488,258,493,221,470,177,436,131,395,91,346,64,295,46,242,27,152"/>
+<area shape="rect" id="Node000013" href="$classcamp_1_1path.html" title=" " alt="" coords="235,5,330,31"/>
+<area shape="poly" id="edge20_Node000013_Node000004" title=" " alt="" coords="36,98,58,63,74,46,92,33,127,19,165,11,235,10,235,15,166,16,129,24,95,38,77,50,62,66,40,101"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="114,308,173,333"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="187,333,252,353,336,371,430,380,477,379,523,373,570,360,614,342,685,307,687,312,617,347,571,365,525,378,478,384,429,386,335,377,250,358,185,338"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="174,298,425,135,428,140,177,303"/>
+<area shape="poly" id="edge14_Node000002_Node000006" title=" " alt="" coords="174,192,195,211,206,228,219,241,283,250,411,260,606,274,649,281,648,287,605,279,410,265,283,255,216,246,202,231,191,214,171,196"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="202,161,371,134,372,139,203,166"/>
+<area shape="rect" id="Node000011" href="$classcamp_1_1drawPathPenBase.html" title=" " alt="" coords="837,171,1020,196"/>
+<area shape="poly" id="edge21_Node000011_Node000006" title=" " alt="" coords="203,171,837,179,837,185,203,176"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="208,64,276,73,349,87,416,109,415,115,347,93,275,78,207,69"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="362,332,372,333,448,337,524,333,595,321,660,307,661,312,596,327,524,338,448,343,372,338,361,337"/>
+<area shape="poly" id="edge12_Node000002_Node000009" title=" " alt="" coords="329,518,372,530,421,538,473,539,499,534,523,526,559,507,590,480,618,450,642,418,679,355,700,309,705,311,684,357,647,421,622,454,594,484,562,511,525,531,500,539,474,544,421,544,370,535,328,523"/>
+<area shape="rect" id="Node000010" href="$structcamp_1_1bbox.html" title=" " alt="" coords="399,284,497,309"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="511,294,642,294,642,299,511,299"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="987,197,1107,233,1105,239,985,203"/>
+<area shape="poly" id="edge17_Node000011_Node000012" title=" " alt="" coords="765,130,887,168,886,173,763,135"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="344,29,653,100,651,105,343,34"/>
+</map>

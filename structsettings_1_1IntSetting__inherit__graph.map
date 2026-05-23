@@ -1,0 +1,15 @@
+<map id="settings::IntSetting" name="settings::IntSetting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="28,460,173,485"/>
+<area shape="rect" id="Node000002" href="$structsettings_1_1dataSetting.html" title=" " alt="" coords="22,372,179,412"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,426,103,460,98,460,98,426"/>
+<area shape="rect" id="Node000003" href="$structsettings_1_1argumentSetting.html" title=" " alt="" coords="5,299,196,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,338,103,372,98,372,98,338"/>
+<area shape="rect" id="Node000004" href="$structsettings_1_1itemSetting.html" title=" " alt="" coords="21,225,180,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,264,103,299,98,299,98,264"/>
+<area shape="rect" id="Node000005" href="$structsettings_1_1setting.html" title=" " alt="" coords="37,152,164,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="103,191,103,225,98,225,98,191"/>
+<area shape="rect" id="Node000006" href="$structsettings_1_1option.html" title=" " alt="" coords="39,79,162,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000007" href="$classgc.html" title=" " alt="" coords="81,5,120,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+</map>

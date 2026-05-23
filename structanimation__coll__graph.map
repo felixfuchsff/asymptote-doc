@@ -1,0 +1,18 @@
+<map id="animation" name="animation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,431,184,456"/>
+<area shape="rect" id="Node000002" href="$structpicture.html" title=" " alt="" coords="68,343,135,368"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,381,105,406,114,418,125,429,121,433,109,422,100,408,96,382"/>
+<area shape="rect" id="Node000003" href="$structpicture_1_1node3.html" title=" " alt="" coords="27,240,141,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,278,102,342,97,343,86,279"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,123,125,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,161,80,216,84,239,79,240,75,216,66,162"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="149,123,208,148"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="181,162,177,289,171,358,163,407,151,431,146,429,157,406,166,357,171,289,176,162"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="151,158,134,174,109,209,92,241,87,238,104,206,130,170,148,154"/>
+<area shape="rect" id="Node000006" href="$structpicture_1_1bounds3.html" title=" " alt="" coords="216,240,347,265"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="268,278,248,300,223,321,178,341,136,352,134,347,177,336,220,316,244,297,264,274"/>
+<area shape="rect" id="Node000007" href="$structcoords3.html" title=" " alt="" coords="245,123,318,148"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="284,161,284,240,279,240,279,161"/>
+<area shape="rect" id="Node000008" href="$structcoord.html" title=" " alt="" coords="252,5,311,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="284,44,284,123,279,123,279,44"/>
+</map>

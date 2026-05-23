@@ -1,0 +1,17 @@
+<map id="settings::refSetting&lt; T &gt;" name="settings::refSetting&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="177,328,361,353"/>
+<area shape="rect" id="Node000002" href="$structsettings_1_1setting.html" title=" " alt="" coords="104,225,231,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,259,259,326,255,330,187,262"/>
+<area shape="rect" id="Node000003" href="$structsettings_1_1option.html" title=" " alt="" coords="109,137,231,163"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,177,170,225,165,225,167,176"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="95,5,133,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="127,42,167,136,163,138,122,44"/>
+<area shape="rect" id="Node000006" href="$classtypes_1_1ty.html" title=" " alt="" coords="5,137,84,163"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="104,44,53,138,49,136,99,42"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="159,5,218,31"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="232,35,250,53,267,90,279,130,285,170,286,210,282,281,274,328,269,327,276,281,281,210,279,171,273,131,262,92,245,56,228,39"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="188,44,174,137,169,137,182,44"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="74,169,152,223,149,227,71,173"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="306,225,426,251"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="347,262,282,330,278,326,343,259"/>
+</map>

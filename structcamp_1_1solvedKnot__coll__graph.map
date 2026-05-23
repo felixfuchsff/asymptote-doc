@@ -1,0 +1,8 @@
+<map id="camp::solvedKnot" name="camp::solvedKnot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,197,144,223"/>
+<area shape="rect" id="Node000002" href="$classgc.html" title=" " alt="" coords="50,5,89,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,44,77,197,72,197,67,45"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1pair.html" title=" " alt="" coords="91,80,181,105"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="91,39,127,78,123,81,87,43"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,119,83,199,78,196,121,116"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="asymptote/predicates.cc" name="asymptote/predicates.cc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="178,5,361,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,72,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,33,86,78,85,73,231,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,79,167,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,33,168,75,165,70,246,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="191,79,259,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,32,242,68,237,66,260,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="284,79,343,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="279,30,301,66,297,68,274,32"/>
+<area shape="rect" id="Node000006" href="$predicates_8h.html" title=" " alt="" coords="367,79,470,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="294,28,383,70,381,75,292,33"/>
+<area shape="rect" id="Node000007" href="$rounding_8h.html" title=" " alt="" coords="495,79,585,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="313,28,484,73,482,78,312,33"/>
+</map>

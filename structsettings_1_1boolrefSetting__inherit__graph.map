@@ -1,0 +1,13 @@
+<map id="settings::boolrefSetting" name="settings::boolrefSetting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,313,185,339"/>
+<area shape="rect" id="Node000006" href="$structsettings_1_1compactSetting.html" title=" " alt="" coords="5,387,189,412"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="100,352,100,387,95,387,95,352"/>
+<area shape="rect" id="Node000002" href="$structsettings_1_1refSetting.html" title=" " alt="" coords="24,225,171,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,279,100,313,95,313,95,279"/>
+<area shape="rect" id="Node000003" href="$structsettings_1_1setting.html" title=" " alt="" coords="34,152,161,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,191,100,225,95,225,95,191"/>
+<area shape="rect" id="Node000004" href="$structsettings_1_1option.html" title=" " alt="" coords="36,79,159,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="100,118,100,152,95,152,95,118"/>
+<area shape="rect" id="Node000005" href="$classgc.html" title=" " alt="" coords="78,5,117,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="100,44,100,79,95,79,95,44"/>
+</map>

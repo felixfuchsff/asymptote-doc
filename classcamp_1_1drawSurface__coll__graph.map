@@ -1,0 +1,18 @@
+<map id="camp::drawSurface" name="camp::drawSurface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,333,282,359"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="133,185,285,210"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,224,211,333,206,333,206,224"/>
+<area shape="rect" id="Node000003" href="$classgc.html" title=" " alt="" coords="156,5,195,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,21,237,27,267,38,295,55,318,79,324,96,323,112,315,128,302,143,269,168,235,187,233,182,266,164,298,139,310,125,317,111,319,96,313,81,292,59,265,43,235,32,208,26"/>
+<area shape="rect" id="Node000005" href="$classcamp_1_1pen.html" title=" " alt="" coords="130,80,221,105"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="178,45,178,80,173,80,173,45"/>
+<area shape="rect" id="Node000006" href="$classcamp_1_1triple.html" title=" " alt="" coords="5,80,105,105"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="146,40,76,82,73,78,143,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="245,80,303,105"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="263,119,247,145,219,186,215,183,242,143,258,116"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="186,118,194,143,207,184,202,185,189,145,181,120"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="55,119,55,170,60,199,70,225,95,261,126,290,159,314,187,331,184,335,156,318,123,294,90,264,65,228,55,200,49,171,49,119"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="86,111,193,182,190,187,83,115"/>
+<area shape="rect" id="Node000007" href="$structprc_1_1RGBAColour.html" title=" " alt="" coords="309,185,439,210"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="352,221,223,335,220,331,349,217"/>
+</map>

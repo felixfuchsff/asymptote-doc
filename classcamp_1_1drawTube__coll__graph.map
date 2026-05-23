@@ -1,0 +1,22 @@
+<map id="camp::drawTube" name="camp::drawTube">
+<area shape="rect" id="Node000001" title=" " alt="" coords="255,453,383,479"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1drawPRC.html" title=" " alt="" coords="201,379,325,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,414,312,451,307,455,278,417"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1drawElementLC.html" title=" " alt="" coords="5,252,173,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,283,248,376,245,381,115,288"/>
+<area shape="rect" id="Node000004" href="$classcamp_1_1drawElement.html" title=" " alt="" coords="83,168,235,193"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,206,101,253,97,250,138,202"/>
+<area shape="rect" id="Node000005" href="$classgc.html" title=" " alt="" coords="139,5,178,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,44,161,168,156,168,156,44"/>
+<area shape="rect" id="Node000007" href="$classcamp_1_1pen.html" title=" " alt="" coords="31,80,121,105"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="137,42,91,82,88,78,133,38"/>
+<area shape="rect" id="Node000008" href="$classcamp_1_1triple.html" title=" " alt="" coords="279,80,379,105"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="192,30,303,77,301,82,190,35"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="196,80,255,105"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="210,118,170,169,166,166,206,115"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="79,118,89,142,103,156,121,166,119,170,100,160,84,146,74,120"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="352,115,370,144,376,161,379,179,379,393,375,412,365,430,338,455,334,451,360,426,370,410,373,392,373,180,371,162,365,146,347,118"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="296,114,232,146,183,170,181,166,229,142,294,109"/>
+<area shape="rect" id="Node000009" href="$structprc_1_1RGBAColour.html" title=" " alt="" coords="198,252,327,277"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="265,291,265,379,260,379,260,291"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="asymptote/path3.h" name="asymptote/path3.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="337,5,483,31"/>
+<area shape="rect" id="Node000002" href="$drawpath3_8h.html" title=" " alt="" coords="321,79,499,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="413,44,413,79,407,79,407,44"/>
+<area shape="rect" id="Node000006" href="$drawsurface_8h.html" title=" " alt="" coords="109,79,297,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="365,38,238,81,236,76,363,33"/>
+<area shape="rect" id="Node000007" href="$path3_8cc.html" title=" " alt="" coords="523,79,673,104"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="454,33,568,76,566,81,452,38"/>
+<area shape="rect" id="Node000003" href="$drawpath3_8cc.html" title=" " alt="" coords="5,152,188,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="347,110,148,154,147,149,346,104"/>
+<area shape="rect" id="Node000004" href="$drawsurface_8cc.html" title=" " alt="" coords="213,152,407,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="384,114,328,154,325,150,381,110"/>
+<area shape="rect" id="Node000005" href="$picture_8cc.html" title=" " alt="" coords="432,152,591,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="439,110,496,150,493,154,436,114"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="176,114,116,154,113,150,174,109"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="233,109,294,150,291,154,230,114"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="267,104,462,149,461,154,266,110"/>
+</map>

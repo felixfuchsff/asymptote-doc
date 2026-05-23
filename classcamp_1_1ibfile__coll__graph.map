@@ -1,0 +1,15 @@
+<map id="camp::ibfile" name="camp::ibfile">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,271,214,296"/>
+<area shape="rect" id="Node000002" href="$classcamp_1_1ifile.html" title=" " alt="" coords="119,196,210,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,236,167,270,162,270,162,236"/>
+<area shape="rect" id="Node000003" href="$classcamp_1_1file.html" title=" " alt="" coords="17,108,104,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,140,152,194,149,198,83,144"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="5,5,44,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="36,43,59,107,54,109,31,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="69,5,127,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="91,44,67,109,62,107,86,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="129,108,201,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="167,147,167,195,162,195,162,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="225,108,331,133"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="257,145,222,174,186,198,183,194,219,170,254,141"/>
+</map>

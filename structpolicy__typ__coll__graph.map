@@ -1,0 +1,9 @@
+<map id="policy_typ" name="policy_typ">
+<area shape="rect" id="Node000001" title=" " alt="" coords="191,240,280,265"/>
+<area shape="rect" id="Node000002" href="$structhandle__base__typ.html" title=" " alt="" coords="5,5,137,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,45,65,82,66,127,76,174,85,195,99,214,113,223,136,231,191,243,190,248,134,236,110,228,95,218,81,198,71,176,61,128,60,82,64,44"/>
+<area shape="rect" id="Node000003" href="$structstring__typ.html" title=" " alt="" coords="192,5,279,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,45,238,240,233,240,233,45"/>
+<area shape="rect" id="Node000004" href="$structarguments__base__typ.html" title=" " alt="" coords="308,5,467,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="394,44,397,82,395,128,384,175,374,198,360,218,343,232,323,243,281,253,280,247,321,238,340,228,356,214,369,195,379,174,390,127,392,82,389,45"/>
+</map>

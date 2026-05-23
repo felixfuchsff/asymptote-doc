@@ -1,0 +1,11 @@
+<map id="AsymptoteLsp::SymbolMaps" name="AsymptoteLsp::SymbolMaps">
+<area shape="rect" id="Node000001" title=" " alt="" coords="368,139,575,164"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,5,213,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,60,254,69,438,136,436,141,252,74,226,65"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,84,253,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,125,368,137,367,142,267,130"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="20,163,239,217"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,173,368,160,368,166,253,179"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="18,241,241,296"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="228,234,252,226,434,162,436,167,254,231,230,239"/>
+</map>

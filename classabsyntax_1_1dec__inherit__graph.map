@@ -1,0 +1,35 @@
+<map id="absyntax::dec" name="absyntax::dec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="464,252,577,277"/>
+<area shape="rect" id="Node000005" href="$classabsyntax_1_1accessdec.html" title=" " alt="" coords="656,5,813,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="524,238,535,195,554,141,583,87,601,63,624,41,654,25,657,30,627,45,605,66,587,90,558,144,540,196,529,239"/>
+<area shape="rect" id="Node000006" href="$classabsyntax_1_1badDec.html" title=" " alt="" coords="665,55,804,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="528,238,541,204,561,164,589,124,624,91,643,79,664,72,666,77,645,84,627,95,593,128,566,167,546,206,533,240"/>
+<area shape="rect" id="Node000007" href="$classabsyntax_1_1fromdec.html" title=" " alt="" coords="663,104,807,129"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="534,239,570,188,595,162,624,140,661,124,663,129,627,144,599,166,574,192,538,242"/>
+<area shape="rect" id="Node000010" href="$classabsyntax_1_1fundec.html" title=" " alt="" coords="667,153,802,179"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="545,241,581,214,624,189,666,175,668,180,626,194,584,218,548,245"/>
+<area shape="rect" id="Node000011" href="$classabsyntax_1_1importdec.html" title=" " alt="" coords="657,203,813,228"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="589,246,678,225,679,231,590,251"/>
+<area shape="rect" id="Node000012" href="$classabsyntax_1_1includedec.html" title=" " alt="" coords="655,252,815,277"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="591,262,654,262,654,267,591,267"/>
+<area shape="rect" id="Node000013" href="$classabsyntax_1_1receiveTypedefDec.html" title=" " alt="" coords="627,301,842,327"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="587,278,626,287,676,299,674,304,625,293,586,283"/>
+<area shape="rect" id="Node000014" href="$classabsyntax_1_1recorddec.html" title=" " alt="" coords="657,351,812,376"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="548,285,584,312,626,337,659,348,657,353,624,342,581,317,545,289"/>
+<area shape="rect" id="Node000015" href="$classabsyntax_1_1templateAccessDec.html" title=" " alt="" coords="625,400,844,425"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="538,288,574,339,598,365,627,386,651,398,649,402,624,391,595,369,570,342,533,291"/>
+<area shape="rect" id="Node000016" href="$classabsyntax_1_1typedec.html" title=" " alt="" coords="663,449,806,475"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="532,290,546,323,566,363,593,403,627,436,644,446,664,453,662,458,642,451,624,440,588,406,561,366,541,326,528,291"/>
+<area shape="rect" id="Node000017" href="$classabsyntax_1_1vardec.html" title=" " alt="" coords="667,499,802,524"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="529,290,539,334,558,387,587,440,605,464,627,485,646,497,668,504,666,509,644,501,624,489,601,468,582,443,553,389,534,335,524,292"/>
+<area shape="rect" id="Node000002" href="$classabsyntax_1_1runnable.html" title=" " alt="" coords="269,252,416,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,262,464,262,464,267,430,267"/>
+<area shape="rect" id="Node000003" href="$classabsyntax_1_1absyn.html" title=" " alt="" coords="92,252,221,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,262,269,262,269,267,235,267"/>
+<area shape="rect" id="Node000004" href="$classgc.html" title=" " alt="" coords="5,252,44,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="58,262,92,262,92,267,58,267"/>
+<area shape="rect" id="Node000008" href="$classabsyntax_1_1fromaccessdec.html" title=" " alt="" coords="892,80,1080,105"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="820,106,892,99,892,104,820,111"/>
+<area shape="rect" id="Node000009" href="$classabsyntax_1_1unraveldec.html" title=" " alt="" coords="905,129,1067,155"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="821,123,905,131,904,136,820,128"/>
+</map>

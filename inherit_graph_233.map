@@ -1,0 +1,16 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classxdr_1_1xios.html" title=" " alt="" coords="5,56,84,81"/>
+<area shape="rect" id="Node000001" href="$classxdr_1_1xstream.html" title=" " alt="" coords="132,56,237,81"/>
+<area shape="poly" id="edge364_Node000000_Node000001" title=" " alt="" coords="98,66,132,66,132,71,98,71"/>
+<area shape="rect" id="Node000002" href="$classxdr_1_1ixstream.html" title=" " alt="" coords="287,31,397,56"/>
+<area shape="poly" id="edge365_Node000001_Node000002" title=" " alt="" coords="250,55,287,49,288,55,251,61"/>
+<area shape="rect" id="Node000004" href="$classxdr_1_1oxstream.html" title=" " alt="" coords="285,80,399,105"/>
+<area shape="poly" id="edge368_Node000001_Node000004" title=" " alt="" coords="251,76,286,81,285,87,250,81"/>
+<area shape="rect" id="Node000003" href="$classxdr_1_1ioxstream.html" title=" " alt="" coords="461,55,579,80"/>
+<area shape="poly" id="edge366_Node000002_Node000003" title=" " alt="" coords="411,50,462,57,461,62,410,55"/>
+<area shape="rect" id="Node000006" href="$classxdr_1_1memixstream.html" title=" " alt="" coords="449,5,591,31"/>
+<area shape="poly" id="edge367_Node000002_Node000006" title=" " alt="" coords="410,31,448,25,449,31,411,36"/>
+<area shape="poly" id="edge369_Node000004_Node000003" title=" " alt="" coords="412,80,461,73,462,78,413,85"/>
+<area shape="rect" id="Node000005" href="$classxdr_1_1memoxstream.html" title=" " alt="" coords="447,104,593,129"/>
+<area shape="poly" id="edge370_Node000004_Node000005" title=" " alt="" coords="413,99,447,104,446,109,412,105"/>
+</map>
